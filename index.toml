@@ -12,6 +12,10 @@ file = "mods/amethyst-gravity-reattracted.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/animal_feeding_trough.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/animorphs.pw.toml"
 metafile = true
 
@@ -21,6 +25,14 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/automobility.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/autoslabs.pw.toml"
 metafile = true
 
 [[files]]
@@ -36,11 +48,19 @@ file = "mods/cardinal-components-api.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/caves__canyons.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/critters-and-companions.pw.toml"
 metafile = true
 
 [[files]]
@@ -76,6 +96,10 @@ file = "mods/ftb-teams-fabric.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/geckolib.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/gravity-api-fork.pw.toml"
 metafile = true
 
@@ -88,11 +112,19 @@ file = "mods/immersiveportals.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/impenduits.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/inline.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/mage-flame.pw.toml"
 metafile = true
 
 [[files]]
@@ -104,7 +136,15 @@ file = "mods/moonlight.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/more-crafting-tables-lieonlion.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/origins.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/owo-lib.pw.toml"
 metafile = true
 
 [[files]]
@@ -116,9 +156,25 @@ file = "mods/paucal.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/pockets.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/quad.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/rhino.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/storagent.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/supplementaries.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/weeping-angels.pw.toml"
 metafile = true

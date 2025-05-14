@@ -1,0 +1,13 @@
+name = "Impenduits"
+filename = "impenduits-1.0.5-1.20.1-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/iYrQWVBW/versions/75uam5zh/impenduits-1.0.5-1.20.1-fabric.jar"
+hash-format = "sha512"
+hash = "35705fd8c1ac88b2196b1a3c0b8ddbe5e0d2badbd3747c058138afe2f1a7ed93cf45c1a9fb6ea36d40fa7a18faececeda8b5e7ea47001523e2895e8f44e2e2c0"
+
+[update]
+[update.modrinth]
+mod-id = "iYrQWVBW"
+version = "75uam5zh"
