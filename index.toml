@@ -2,3 +2,123 @@ hash-format = "sha256"
 
 [[files]]
 file = ".github/workflows/export.yml"
+
+[[files]]
+file = "mods/ae2.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/amethyst-gravity-reattracted.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/animorphs.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/apugli.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/block-o-morph.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cardinal-components-api.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cc-tweaked.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/eggolib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fabric-api.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fabric-language-kotlin.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/forge-config-api-port.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/forgiving-void.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/gravity-api-fork.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/hex-casting.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/immersiveportals.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/inline.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/mermod.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/moonlight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/origins.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/patchouli.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/paucal.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+metafile = true

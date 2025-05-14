@@ -1,0 +1,13 @@
+name = "Block'oMorph"
+filename = "blockomorph-1.20.1-fabric-1.0.7.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DDnWSBuT/versions/P0XhQgq9/blockomorph-1.20.1-fabric-1.0.7.jar"
+hash-format = "sha512"
+hash = "202e50cffa5565d4fc9e776fb579d76b4e951c5724de793612f0d3bcad4ba6d14cbc729f39c0d8b73580996cda7507eb22f1184a815ba8c920b368aa7ff81d5e"
+
+[update]
+[update.modrinth]
+mod-id = "DDnWSBuT"
+version = "P0XhQgq9"

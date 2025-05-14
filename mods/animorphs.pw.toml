@@ -1,0 +1,13 @@
+name = "Animorphs"
+filename = "animorphs-0.2.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Tadq7H8e/versions/HXkEKScQ/animorphs-0.2.9.jar"
+hash-format = "sha512"
+hash = "2f2d7390ed7cefb3e4174da5c6f1669fabc3238fbae3cc83f93afc3d0d55ebc5951760014136901d370799512599200fb19976f29f10d82845759c88ba5d7ce2"
+
+[update]
+[update.modrinth]
+mod-id = "Tadq7H8e"
+version = "HXkEKScQ"
