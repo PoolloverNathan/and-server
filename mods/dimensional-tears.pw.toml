@@ -1,0 +1,13 @@
+name = "Dimensional Tears"
+filename = "portal_fluid-1.20.1-0.1.0-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/QsjoEiYm/versions/39aGo7tt/portal_fluid-1.20.1-0.1.0-fabric.jar"
+hash-format = "sha512"
+hash = "cfc4859e817d6fe1fabcb8495197688546c4a448bcdae96ca9f92e6ec8ca6fe90cf0c6c10643989a547031e86e1a26616040afae33301851d2f68e8810d31c73"
+
+[update]
+[update.modrinth]
+mod-id = "QsjoEiYm"
+version = "39aGo7tt"

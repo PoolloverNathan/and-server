@@ -17,6 +17,10 @@ file = "mods/ae2.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/amendments.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/amethyst-gravity-reattracted.pw.toml"
 metafile = true
 
@@ -79,6 +83,14 @@ file = "mods/critters-and-companions.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/dimensional-tears.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/dimensionaldoors.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/eggolib.pw.toml"
 metafile = true
 
@@ -113,6 +125,10 @@ metafile = true
 
 [[files]]
 file = "mods/forgiving-void.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/friendly-phantoms.pw.toml"
 metafile = true
 
 [[files]]
@@ -159,6 +175,10 @@ file = "mods/inline.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/inventorio.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/invview.pw.toml"
 metafile = true
 
@@ -199,6 +219,10 @@ file = "mods/moreiotas.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/open-loader.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/origins.pw.toml"
 metafile = true
 
@@ -230,6 +254,10 @@ file = "mods/rhino.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/seamless.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/storagent.pw.toml"
 metafile = true
 
@@ -250,8 +278,4 @@ file = "mods/vowels-1.0.0+1.20.1.jar"
 
 [[files]]
 file = "mods/weeping-angels.pw.toml"
-metafile = true
-
-[[files]]
-file = "resourcepacks/alt-recipe-book.pw.toml"
 metafile = true

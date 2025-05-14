@@ -1,0 +1,13 @@
+name = "Dimensional Doors"
+filename = "dimdoors-5.4.4-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/b8Q0BxnV/versions/2mbjY4AI/dimdoors-5.4.4-fabric.jar"
+hash-format = "sha512"
+hash = "148c835673e01266177f85193b33079347e90cdf210877198d7a9c1cd6ca23376a3ea51e6fee270996fc88eb8d1dff2a54b1b9d211c8c1eb81c04e149632a682"
+
+[update]
+[update.modrinth]
+mod-id = "b8Q0BxnV"
+version = "2mbjY4AI"
