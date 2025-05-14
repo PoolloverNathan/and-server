@@ -1,0 +1,12 @@
+name: and
+
+volumes:
+  world:
+
+services:
+  server:
+    image: docker.pool.net.eu.org/and-server
+    build: .
+    ports:
+      - 39781:25565
+      - 42279:42279/udp
