@@ -5,8 +5,7 @@ volumes:
 
 services:
   server:
-    image: docker.pool.net.eu.org/and-server
-    build: .
+    build: dedicated-server/
     init: true
     cpus: 3
     ports:

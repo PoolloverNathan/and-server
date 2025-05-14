@@ -1,9 +1,6 @@
-.dockerignore
 .envrc
 .github/
-.gitmodules
 Dockerfile
 dedicated-server/
-docker-bake.hcl
 flake.*
 result*
