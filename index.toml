@@ -1,7 +1,7 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".github/workflows/export.yml"
+file = "compose.yml"
 
 [[files]]
 file = "mods/ae2.pw.toml"
@@ -26,6 +26,9 @@ metafile = true
 [[files]]
 file = "mods/architectury-api.pw.toml"
 metafile = true
+
+[[files]]
+file = "mods/arwa-1.0.0.jar"
 
 [[files]]
 file = "mods/automobility.pw.toml"
@@ -66,6 +69,9 @@ metafile = true
 [[files]]
 file = "mods/eggolib.pw.toml"
 metafile = true
+
+[[files]]
+file = "mods/ensculked-0.1.4-eazs+1.20.1.jar"
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
@@ -160,6 +166,9 @@ file = "mods/pockets.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/pooltoy-origin-0.3.1.jar"
+
+[[files]]
 file = "mods/quad.pw.toml"
 metafile = true
 
@@ -174,6 +183,9 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 metafile = true
+
+[[files]]
+file = "mods/vowels-1.0.0+1.20.1.jar"
 
 [[files]]
 file = "mods/weeping-angels.pw.toml"
