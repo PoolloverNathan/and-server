@@ -7,7 +7,7 @@ WORKDIR /pack
 RUN packwiz refresh --build
 
 FROM alpine
-ADD https://meta.fabricmc.net/v2/versions/loader/1.20.1/0.16.10/1.0.1/server/jar /app/fabric-server.jar
+ADD https://meta.fabricmc.net/v2/versions/loader/1.20.1/0.16.14/1.0.1/server/jar /app/fabric-server.jar
 ADD https://github.com/packwiz/packwiz-installer-bootstrap/releases/download/v0.0.3/packwiz-installer-bootstrap.jar /app/packwiz-installer-bootstrap.jar
 COPY --link --from=0 /pack /app/pack
 COPY <<EOT /app/start.sh
