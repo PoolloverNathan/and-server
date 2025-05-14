@@ -1,0 +1,4 @@
+hash-format = "sha256"
+
+[[files]]
+file = ".github/workflows/export.yml"

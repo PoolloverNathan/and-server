@@ -1,0 +1,60 @@
+name: Packwiz Export
+on:
+  push:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  hash:
+    runs-on: ubuntu-24.04
+    steps:
+      - run: sudo apt install golang
+      - run: sudo GOBIN=/usr/local/bin go install github.com/packwiz/packwiz@latest
+      - uses: actions/checkout@v4
+      - run: bash -c "rm -rf $(cat .packwizignore | xargs)"
+      - run: /usr/local/bin/packwiz refresh --build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+  deploy:
+    runs-on: ubuntu-24.04
+    if: github.ref == 'refs/heads/main'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: hash
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
+  prism:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cachix/install-nix-action@v31
+      - run: nix build .#releasePrismPack.contents
+      - uses: actions/upload-artifact@v4
+        with:
+          name: prism
+          path: result/*
+  build:
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        command:
+          - curseforge
+          - modrinth
+      fail-fast: false
+    steps:
+      - run: sudo apt install golang
+      - run: sudo GOBIN=/usr/local/bin go install github.com/packwiz/packwiz@latest
+      - uses: actions/checkout@v4
+      - run: mkdir export
+      - run: /usr/local/bin/packwiz ${{ matrix.command }} export --pack-file /home/runner/work/eazs-2/eazs-2/pack.toml
+        working-directory: export
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.command }}
+          path: export/*
