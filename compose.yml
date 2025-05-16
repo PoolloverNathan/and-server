@@ -2,6 +2,7 @@ name: and
 
 volumes:
   world:
+  tmux:
 
 services:
   server:
@@ -9,8 +10,27 @@ services:
     build: dedicated-server/
     init: true
     cpus: 3
+    stdin_open: true
+    tty: true
     volumes:
       - world:/mnt
+      - tmux:/tmux
     ports:
       - 39781:25565
       - 42279:42279/udp
+
+  console:
+    image: docker.pool.net.eu.org/tmux
+    profiles:
+      - NEVER
+    volumes:
+      - tmux:/tmux
+    build:
+      context: /var/empty
+      dockerfile_inline: |
+        FROM alpine
+        RUN apk add tmux
+        VOLUME /tmux
+        ENV TMUX_TMPDIR=/tmux
+        ENTRYPOINT ["tmux"]
+        CMD ["a"]

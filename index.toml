@@ -29,10 +29,6 @@ file = "mods/animal_feeding_trough.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/animorphs.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/apugli.pw.toml"
 metafile = true
 
@@ -76,6 +72,10 @@ file = "mods/cloth-config.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/craterlib.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/create-fabric.pw.toml"
 metafile = true
 
@@ -116,9 +116,6 @@ file = "mods/figura-0.1.5+1.20.1-fabric-mc.jar"
 [[files]]
 file = "mods/figura-goofyplugin.pw.toml"
 metafile = true
-
-[[files]]
-file = "mods/flywheel-fabric-1.20.1-1.0.4.jar"
 
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
@@ -259,6 +256,10 @@ file = "mods/rhino.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/sdlink.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/seamless.pw.toml"
 metafile = true
 
@@ -272,6 +273,10 @@ metafile = true
 
 [[files]]
 file = "mods/trinkets.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/universal-perms.pw.toml"
 metafile = true
 
 [[files]]
