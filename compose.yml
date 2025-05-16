@@ -9,6 +9,8 @@ services:
     build: dedicated-server/
     init: true
     cpus: 3
+    volumes:
+      - world:/mnt
     ports:
       - 39781:25565
       - 42279:42279/udp
