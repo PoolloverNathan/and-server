@@ -76,7 +76,8 @@ file = "mods/cloth-config.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/create-fabric-6.0.4.0+mc1.20.1-build.1666.jar"
+file = "mods/create-fabric.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/critters-and-companions.pw.toml"
