@@ -240,6 +240,10 @@ file = "mods/paucal.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/pehkui.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/pockets.pw.toml"
 metafile = true
 
