@@ -197,10 +197,6 @@ file = "mods/mage-flame.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/mermod.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/modernfix.pw.toml"
 metafile = true
 
