@@ -1,0 +1,13 @@
+name = "Hexxy Dimensions"
+filename = "hexxy-dimensions-1.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/P7dNk96I/versions/pSfTHr1z/hexxy-dimensions-1.3.0.jar"
+hash-format = "sha512"
+hash = "03850605f43614ad417038798690f0bc1439b8a2ef805357d5f8a57d8e99d686f9ab52344c658f6c95095d0d9a395d8b558a49edb8b45dbeb4cfa117ae892ecf"
+
+[update]
+[update.modrinth]
+mod-id = "P7dNk96I"
+version = "pSfTHr1z"

@@ -1,0 +1,13 @@
+name = "Hex Machina"
+filename = "hex_machina-1.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uQ6K0yH1/versions/FEkNBdoN/hex_machina-1.0.1.jar"
+hash-format = "sha512"
+hash = "ca5fbaf4ada2f27e2e554ee1572ca0ad3134abce5afa559f41eb0c6f1e182528f0fd88b343f8691face3eb23102939f2fe4df0a20b1cdb67b4963da41518bc13"
+
+[update]
+[update.modrinth]
+mod-id = "uQ6K0yH1"
+version = "FEkNBdoN"
