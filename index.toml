@@ -118,10 +118,6 @@ metafile = true
 file = "mods/figura-0.1.5+1.20.1-fabric-mc.jar"
 
 [[files]]
-file = "mods/figura-goofyplugin.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/forge-config-api-port.pw.toml"
 metafile = true
 
@@ -182,10 +178,6 @@ metafile = true
 
 [[files]]
 file = "mods/hexical.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/hextweaks.pw.toml"
 metafile = true
 
 [[files]]
