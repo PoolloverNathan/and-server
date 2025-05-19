@@ -269,7 +269,7 @@ file = "mods/pockets.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/pooltoy-origin-0.3.1.jar"
+file = "mods/pooltoy-origin-0.3.3.jar"
 
 [[files]]
 file = "mods/quad.pw.toml"
