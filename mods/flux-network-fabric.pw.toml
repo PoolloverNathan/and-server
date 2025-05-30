@@ -1,0 +1,13 @@
+name = "Flux Networks [Fabric]"
+filename = "FluxNetworks-Fabric-1.20.1-7.2.8.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/d1ItuIJe/versions/zgc23r45/FluxNetworks-Fabric-1.20.1-7.2.8.1.jar"
+hash-format = "sha512"
+hash = "6af0fbad914e26286cce3029bfffc6853f05f85f4d89b76309fb6a80e577b6c2af384b8132ab0d4e03ece1fbc1bbb1793a1b6736fe515889e8c2f2562984fdb0"
+
+[update]
+[update.modrinth]
+mod-id = "d1ItuIJe"
+version = "zgc23r45"
