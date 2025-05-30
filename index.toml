@@ -409,14 +409,6 @@ file = "mods/seamless.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/soulbound.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/sparkweave.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/storagent.pw.toml"
 metafile = true
 
