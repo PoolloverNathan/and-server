@@ -1,0 +1,44 @@
+[flavor_groups.map]
+name = "Map"
+description = ""
+[[flavor_groups.map.choices]]
+id = "nomap"
+name = "None"
+description = ""
+[[flavor_groups.map.choices]]
+id = "xaero"
+name = "Xaero"
+description = ""
+
+[flavor_groups.recipeviewer]
+name = "Recipe Viewer"
+description = ""
+[[flavor_groups.recipeviewer.choices]]
+id = "noviewer"
+name = "None"
+description = ""
+[[flavor_groups.recipeviewer.choices]]
+id = "emi"
+name = "EMI"
+description = ""
+[[flavor_groups.recipeviewer.choices]]
+id = "rei"
+name = "REI"
+description = ""
+
+[metafile.xaeros-minimap]
+flavors = ["xaero"]
+[metafile.xaeros-world-map]
+flavors = ["xaero"]
+[metafile.xaero-zoomout]
+flavors = ["xaero"]
+
+[metafile.emi]
+flavors = ["emi"]
+[metafile.emi-create-schematics]
+flavors = ["emi"]
+[metafile.ae2-emi-crafting]
+flavors = ["emi"]
+
+[metafile.rei]
+flavors = ["rei"]

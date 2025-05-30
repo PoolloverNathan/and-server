@@ -1,0 +1,17 @@
+name = "Cool Rain"
+filename = "coolrain-1.1.0-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/iDyqnQLT/versions/YEnuoMXW/coolrain-1.1.0-1.20.1.jar"
+hash-format = "sha512"
+hash = "b99c21543a6d06070ed25fa33451fcd8de7e01a8a891822ac4c11beded5d7fe8f16129b6ddc986d8d14c59f91adec2e07947c7a8883e1f2175cadfdf1238f1a9"
+
+[update]
+[update.modrinth]
+mod-id = "iDyqnQLT"
+version = "YEnuoMXW"
+
+[option]
+optional = true
+default = true

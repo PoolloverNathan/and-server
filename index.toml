@@ -17,6 +17,10 @@ file = "mods/ad-astra.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ae2-emi-crafting.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ae2.pw.toml"
 metafile = true
 
@@ -33,6 +37,10 @@ file = "mods/animal_feeding_trough.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/apugli.pw.toml"
 metafile = true
 
@@ -41,11 +49,19 @@ file = "mods/architectury-api.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/armorpoints.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/artifacts.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/arwa-1.0.0.jar"
+
+[[files]]
+file = "mods/auth-me.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/automobility.pw.toml"
@@ -100,6 +116,10 @@ file = "mods/complex-hex.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/coolrain.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/craterlib.pw.toml"
 metafile = true
 
@@ -128,7 +148,19 @@ file = "mods/eggolib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/emi-create-schematics.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/emi.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ensculked-0.1.4-pre.1+1.20.1+eazs.jar"
+
+[[files]]
+file = "mods/explosive-enhancement.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
@@ -307,6 +339,10 @@ file = "mods/owo-lib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/particle-rain.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 metafile = true
 
@@ -335,6 +371,10 @@ metafile = true
 
 [[files]]
 file = "mods/quad.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rei.pw.toml"
 metafile = true
 
 [[files]]
@@ -378,6 +418,10 @@ file = "mods/supplementaries.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/sushi-bar.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/trinkets.pw.toml"
 metafile = true
 
@@ -395,3 +439,18 @@ file = "mods/vowels-1.0.0+1.20.1.jar"
 [[files]]
 file = "mods/weeping-angels.pw.toml"
 metafile = true
+
+[[files]]
+file = "mods/xaero-zoomout.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+metafile = true
+
+[[files]]
+file = "unsup.toml"

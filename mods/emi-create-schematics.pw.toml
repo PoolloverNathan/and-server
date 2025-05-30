@@ -1,0 +1,13 @@
+name = "EMI: Create Schematics"
+filename = "EMI Create Schematics [1.0.1 Fabric 1.20.1].jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/5bgqgixq/versions/gWlEw051/EMI%20Create%20Schematics%20%5B1.0.1%20Fabric%201.20.1%5D.jar"
+hash-format = "sha512"
+hash = "83b1b4a54586d3c494a5eb8a55cd6414d4a2c8d1fd405662fa729040c443d600569aac15ea34f57375d01cdf177b1d7f30594c153154a5f205139f012b4bf4a7"
+
+[update]
+[update.modrinth]
+mod-id = "5bgqgixq"
+version = "gWlEw051"

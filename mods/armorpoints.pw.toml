@@ -1,0 +1,17 @@
+name = "Armor Points ++"
+filename = "armorpointspp-fabric-1.20-3.1.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/xvAim1vw/versions/NJD8sOJg/armorpointspp-fabric-1.20-3.1.2.jar"
+hash-format = "sha512"
+hash = "1f2ac484dc5f29d1d8372edef52314eaac71d2fe6798c355aac5d1232d7375197fdbb587ac46b97b76df7d39b2c178c329b183f560a68d1ff881b0d0f9331d91"
+
+[update]
+[update.modrinth]
+mod-id = "xvAim1vw"
+version = "NJD8sOJg"
+
+[option]
+optional = true
+default = true
