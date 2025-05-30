@@ -460,4 +460,8 @@ file = "mods/xaeros-world-map.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/yigd.pw.toml"
+metafile = true
+
+[[files]]
 file = "unsup.toml"
