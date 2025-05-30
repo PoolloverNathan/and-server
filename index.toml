@@ -213,10 +213,6 @@ file = "mods/hexdebug.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/hexdim.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/hexical.pw.toml"
 metafile = true
 
