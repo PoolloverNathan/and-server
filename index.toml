@@ -305,6 +305,9 @@ file = "mods/mage-flame.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/mindweaver-0.1-1.20.1-fabric (1).jar"
+
+[[files]]
 file = "mods/modernfix.pw.toml"
 metafile = true
 
