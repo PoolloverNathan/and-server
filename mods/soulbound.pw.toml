@@ -1,0 +1,13 @@
+name = "Soulbound"
+filename = "soulbound-3.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9QyjzbTh/versions/vGzO6Ue7/soulbound-3.1.0.jar"
+hash-format = "sha512"
+hash = "e74c38cc85842cbecfa481a518ec9e33071054439320aa12b053d6a756054aad2ed67d4921d7ec98fe58bee9b4805920aebf1a11821cebbc213df2f347b5095a"
+
+[update]
+[update.modrinth]
+mod-id = "9QyjzbTh"
+version = "vGzO6Ue7"
