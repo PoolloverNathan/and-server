@@ -301,6 +301,10 @@ file = "mods/lithium.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/lootr.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/mage-flame.pw.toml"
 metafile = true
 
