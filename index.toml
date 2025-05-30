@@ -68,6 +68,14 @@ file = "mods/caves__canyons.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/cc-tweaked.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cccbridge.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 metafile = true
 
@@ -96,6 +104,10 @@ file = "mods/dimensionaldoors.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/ducky-periphs.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/eggolib.pw.toml"
 metafile = true
 
@@ -108,6 +120,10 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight-refabricated.pw.toml"
 metafile = true
 
 [[files]]
@@ -181,6 +197,10 @@ file = "mods/hexical.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/hextweaks.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/hexweb.pw.toml"
 metafile = true
 
@@ -206,6 +226,10 @@ metafile = true
 
 [[files]]
 file = "mods/invview.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ioticblocks.pw.toml"
 metafile = true
 
 [[files]]
@@ -241,6 +265,9 @@ file = "mods/moreiotas.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/oneironaut-fabric-1.20.1-0.5.0.jar"
+
+[[files]]
 file = "mods/open-loader.pw.toml"
 metafile = true
 
@@ -262,6 +289,10 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/pick-your-poison.pw.toml"
 metafile = true
 
 [[files]]
