@@ -350,6 +350,10 @@ file = "mods/owo-lib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/paragraphs.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/particle-rain.pw.toml"
 metafile = true
 
