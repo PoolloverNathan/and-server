@@ -335,6 +335,10 @@ file = "mods/open-loader.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/origins-extra-keybinds-fabric.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/origins.pw.toml"
 metafile = true
 
