@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:echo_shard"
+        },
+        "title": "Vegalon Technologys 8000 12V Vegie Digest Advanced cooling system",
+        "description": "Now you have no need to worry about the hot! Not only that, you're able to digest your veggies! would you look at that!",
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "avali:core1",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

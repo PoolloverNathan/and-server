@@ -1,0 +1,3 @@
+tellraw @a[distance=..0.75, limit=1] {"text":"Click ","extra":[{"text":"Here","color":"blue","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/trigger join_pack"}},{"text":" to join "},{"selector":"@s"},{"text":"'s pack!"}]}
+scoreboard players enable @a[distance=..0.75, limit=1] join_pack
+execute store result score @a[distance=..0.75, limit=1] avali_pack_id run scoreboard players get @s current_pack

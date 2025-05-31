@@ -1,0 +1,39 @@
+{
+    "type": "origins:multiple",
+    "display_info":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "apoli:execute_command",
+            "command": "title @s actionbar {\"text\":\"Moving players near: \",\"extra\":[{\"score\":{\"name\":\"@s\",\"objective\":\"players_near_avali\"}},{\"text\":\", Current ability is Garbage Collection\"}]}"
+        },
+        "interval": 1
+    },
+    "attract_items":{
+        "type": "origins:active_self",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "avali:overload_toggle_mode",
+                    "inverted": true
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "apoli:execute_command",
+                    "command": "tp @e[type=minecraft:item, distance=..32] @s"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource":"avali:overload_resource",
+                    "change": 300,
+                    "operation": "add"
+                }
+            ]
+        }
+    }
+}

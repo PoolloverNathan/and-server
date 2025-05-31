@@ -1,0 +1,57 @@
+{
+    "type": "origins:multiple",
+    "heat_go_up":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:heat_bar_resource",
+            "change": 1
+        },
+        "condition": {
+            "type": "origins:biome",
+            "condition": {
+                "type": "origins:temperature",
+                "comparison": ">",
+                "compare_to": 0.5
+            }
+        },
+        "interval": 60
+    },
+    "heat_go_down":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:heat_bar_resource",
+            "change": -1
+        },
+        "condition": {
+            "type": "origins:biome",
+            "condition": {
+                "type": "origins:temperature",
+                "comparison": "<",
+                "compare_to": 0.5
+            }
+        },
+        "interval": 1
+    },
+    "armor":{
+        "type": "origins:attribute",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.armor",
+                "operation":"addition",
+                "value": 4
+            },
+            {
+                "attribute": "minecraft:generic.armor_toughness",
+                "operation":"addition",
+                "value": 6
+            },
+            {
+                "attribute": "minecraft:generic.knockback_resistance",
+                "operation":"addition",
+                "value": 2
+            }
+        ]
+    }
+}

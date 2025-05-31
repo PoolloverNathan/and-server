@@ -1,0 +1,89 @@
+{
+    "type": "origins:multiple",
+    "cooldown": {
+        "type": "origins:cooldown",
+        "cooldown": 15,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "adfsgvkiabgkasduiyfbasrgoiuyfbasdf"
+        }
+    },
+    "get_rid_of_power": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "*:glowing_toggle"
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:glowing_cooldown",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "power remove @s avali:glowing"
+        }
+    },
+    "activte_power": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:glowing_cooldown",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "*:glowing_toggle",
+                    "inverted": true
+                }
+            ]
+        },
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:trigger_cooldown",
+            "power": "*:glowing_cooldown"
+        }
+    },
+    "activate_self_destruct": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_cooldown",
+                    "comparison": ">=",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "*:glowing_toggle",
+                    "inverted": true
+                }
+            ]
+        },
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:toggle",
+            "power": "*:glowing_toggle"
+        }
+    },
+    "badges": []
+}

@@ -1,0 +1,112 @@
+{
+    "type": "origins:multiple",
+    "duration":{
+        "type": "origins:cooldown",
+        "cooldown": 100,
+        "hud_render": {
+            "bar_index": 20,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png"
+        }
+    },
+    "deactivate":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:toggle",
+                    "power": "avali:cybernetics/abilitys/legs2_flip_switch"
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.enderman.teleport"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "power remove @s avali:cybernetics/abilitys/spectator_basically"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "avali:cybernetics/abilitys/legs2_flip_switch"
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_duration",
+                    "compare_to": 0,
+                    "comparison": "=="
+                }
+            ]
+        },
+        "interval": 1
+    },
+    "flip_switch":{
+        "type": "origins:toggle",
+        "key":{
+            "key":"dfsfsdgjdfglhdkgnmdfmklgn"
+        }
+    },
+    "activate":{
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:trigger_cooldown",
+                    "power": "avali:cybernetics/abilitys/legs2_duration"
+                },
+                {
+                    "type": "origins:toggle",
+                    "power": "avali:cybernetics/abilitys/legs2_flip_switch"
+                },
+                {
+                    "type": "origins:play_sound",
+                    "sound": "minecraft:entity.enderman.teleport"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "power grant @s avali:cybernetics/abilitys/spectator_basically"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource":"avali:overload_resource",
+                    "change": 3600,
+                    "operation": "add"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "avali:overload_toggle_mode",
+                    "inverted": true
+                }
+            ]
+        },
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "on_remove":{
+        "type": "apoli:action_on_callback",
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "power remove @s avali:cybernetics/abilitys/spectator_basically"
+        }
+    },
+    "display_info":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "apoli:execute_command",
+            "command": "title @s actionbar {\"text\":\"Moving players near: \",\"extra\":[{\"score\":{\"name\":\"@s\",\"objective\":\"players_near_avali\"}},{\"text\":\", Current ability is Tele-Blink\"}]}"
+        },
+        "interval": 1
+    }
+}

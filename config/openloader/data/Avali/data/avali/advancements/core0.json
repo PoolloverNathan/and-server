@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "title": "Basic avali core",
+        "description": "No internal cybernetics. You'll overheat easally in hot biomes, and the only biomes you feel comfortable in are those that are frigid. Better upgrade soon, before your blood boils.",
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "avali:root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

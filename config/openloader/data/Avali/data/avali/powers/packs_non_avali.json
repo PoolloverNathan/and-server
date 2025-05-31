@@ -1,0 +1,44 @@
+{
+    "type": "origins:multiple",
+    "got_hurt":{
+        "type": "origins:self_action_when_hit",
+        "entity_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "apoli:power",
+                "power": "avali:packs_non_avali_test_hurt"
+            },
+            "if_action": {
+                "type": "origins:grant_power",
+                "source": "*:packs_non_avali_got_hurt",
+                "power": "avali:hurt_alert"
+            },
+            "else_action": {
+                "type": "origins:execute_command",
+                "command": "function avali:got_hurt"
+            }
+        },
+        "cooldown": 100
+    },
+    "test_hurt":{
+        "type": "eggolib:invisibility",
+        "condition": {
+            "type": "origins:constant",
+            "value": false
+        }
+    },
+    "weep":{
+        "type": "origins:action_when_damage_taken",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "execute at @a[predicate=avali:is_avali, distance=1..] if score @s current_pack = @p current_pack run power grant @s avali:very_sad"
+        },
+        "condition": {
+            "type": "origins:health",
+            "comparison": "<=",
+            "compare_to": 0
+        },
+        "cooldown": 1
+    },
+    "hidden": true
+}

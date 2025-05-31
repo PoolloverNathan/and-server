@@ -1,0 +1,123 @@
+{
+    "type": "origins:multiple",
+    "exhaust":{
+        "type": "apoli:action_over_time",
+        "entity_action": {
+            "type": "origins:exhaust",
+            "amount": 0.2
+        },
+        "interval": 5
+    },
+    "water_hurts":{
+        "type": "origins:damage_over_time",
+        "interval": 20,
+        "onset_delay": 1,
+        "damage": 40,
+        "damage_easy": 16,
+        "damage_source": {
+          "name": "hurt_by_water",
+          "unblockable": true,
+          "bypasses_armor": true
+        },
+        "condition": {
+          "type": "origins:or",
+          "conditions": [
+            {
+              "type": "origins:fluid_height",
+              "fluid": "minecraft:water",
+              "comparison": ">",
+              "compare_to": 0.0
+            },
+            {
+              "type": "origins:in_rain"
+            }
+          ]
+        }
+    },
+    "resource":{
+        "type": "origins:resource",
+        "max": 500,
+        "min": 0,
+        "hud_render": {
+            "bar_index": 7,
+            "sprite_location":"origins:textures/gui/community/huang/resource_bar_01.png",
+            "condition": {
+                "type": "origins:resource",
+                "resource":"*:*_resource",
+                "compare_to": 0,
+                "comparison": "!="
+            }
+        },
+        "max_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "change": 0,
+                    "operation": "set",
+                    "resource":"*:*_resource"
+                },
+                {
+                    "type": "origins:explode",
+                    "power": 20
+                },
+                {
+                    "type": "origins:damage",
+                    "amount": 100000,
+                    "source": {
+                        "name": "explosion",
+                        "bypasses_armor": true,
+                        "out_of_world": true
+                    }
+                }
+            ]
+        }
+    },
+    "change_temp":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:if_else",
+            "if_action": {
+                "type": "origins:change_resource",
+                "resource": "*:*_resource",
+                "change": 4
+            },
+            "condition": {
+                "type": "origins:biome",
+                "condition": {
+                    "type": "origins:temperature",
+                    "comparison": ">",
+                    "compare_to": 0.5
+                }
+            },
+            "else_action": {
+                "type": "origins:change_resource",
+                "resource": "*:*_resource",
+                "change": 1
+            }
+        },
+        "condition": {
+            "type": "origins:biome",
+            "condition": {
+                "type": "origins:temperature",
+                "comparison": ">",
+                "compare_to": 0.5
+            }
+        },
+        "interval": 5
+    },
+    "drink_water":{
+        "type": "origins:action_on_item_use",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_resource",
+            "change": -35
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:potion"
+            }
+        }
+    }
+}

@@ -10,6 +10,7 @@ services:
     build: dedicated-server/
     init: true
     cpus: 3
+    restart: unless-stopped
     stdin_open: true
     tty: true
     volumes:

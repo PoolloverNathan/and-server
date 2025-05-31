@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "title": "ERR_EFFICENCY_10%",
+        "description": "Your hunger drains at an obsene rate now, you overheat stupid easally, and water hurts even more. I dont know what to say, why would you do this.",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "avali:uhoh4"
+}

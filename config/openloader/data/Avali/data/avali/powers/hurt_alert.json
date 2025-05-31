@@ -1,0 +1,78 @@
+{
+    "type": "origins:multiple",
+    "cooldown": {
+        "type": "origins:cooldown",
+        "cooldown": 30,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "adfsgvkiabgkasduiyfbasrgoiuyfbasdf"
+        }
+    },
+    "get_rid_of_power": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "*:hurt_alert_toggle"
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:hurt_alert_cooldown",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "power remove @s avali:hurt_alert"
+        }
+    },
+    "activte_power": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:hurt_alert_cooldown",
+            "comparison": "==",
+            "compare_to": 0
+        },
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:trigger_cooldown",
+            "power": "*:hurt_alert_cooldown"
+        }
+    },
+    "activate_self_destruct": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_cooldown",
+                    "comparison": ">=",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle",
+                    "inverted": true
+                }
+            ]
+        },
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:toggle",
+            "power": "*:hurt_alert_toggle"
+        }
+    }
+}

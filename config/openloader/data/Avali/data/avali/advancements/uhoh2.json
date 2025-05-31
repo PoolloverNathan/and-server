@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "title": "ERR: BAG_OF_RICE NEEDED",
+        "description": "Seems like water doesn't agree with you anymore... might wanna stay away, unless you're drinking it (Potions are fine)",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "avali:uhoh1"
+}

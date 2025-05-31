@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:torch"
+        },
+        "title": "Dumpsterali 2V Optical Implants 2000",
+        "description": "They're not the best, but they get the job done.",
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "avali:fuckin_hell/root",
+    "criteria": {
+        "reqirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "avali:eyes1"
+            }
+        }
+    },
+    "rewards": {
+        "function": "avali:clear_book"
+    }
+}

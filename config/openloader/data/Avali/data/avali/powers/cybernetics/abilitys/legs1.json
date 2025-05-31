@@ -1,0 +1,65 @@
+{
+    "type": "origins:multiple",
+    "display_info":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "apoli:execute_command",
+            "command": "title @s actionbar {\"text\":\"Moving players near: \",\"extra\":[{\"score\":{\"name\":\"@s\",\"objective\":\"players_near_avali\"}},{\"text\":\", Current ability is Booster Jump\"}]}"
+        },
+        "interval": 1
+    },
+    "ability":{
+        "type": "origins:launch",
+        "cooldown": 1,
+        "hud_render": {
+            "bar_index": 4
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "avali:overload_toggle_mode",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:command",
+                    "command": "execute if entity @s[nbt={OnGround:true}]",
+                    "comparison": "==",
+                    "compare_to": 1
+                }
+            ]
+        },
+        "sound": "minecraft:block.piston.extend",
+        "speed": 2,
+        "key": {
+            "key": "key.origins.primary_active"
+        }
+    },
+    "active_self":{
+        "type": "origins:active_self",
+        "cooldown": 1,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "avali:overload_toggle_mode",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:command",
+                    "command": "execute if entity @s[nbt={OnGround:true}]",
+                    "comparison": "==",
+                    "compare_to": 1
+                }
+            ]
+        },
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource":"avali:overload_resource",
+            "change": 600,
+            "operation": "add"
+        }
+    }
+}

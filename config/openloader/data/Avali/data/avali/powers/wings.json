@@ -1,0 +1,66 @@
+{
+    "type": "origins:simple",
+    "badges": [
+        {
+            "type": "origins:crafting_recipe",
+            "suffix": "Wings upgrade 1",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "recipe": {
+                "id": "avali:eyes1",
+                "type": "minecraft:crafting_shaped",
+                "pattern": [
+                    "# #",
+                    "$ $",
+                    "% %"
+                ],
+                "key": {
+                    "#":{
+                        "item": "minecraft:redstone_torch"
+                    },
+                    "$":{
+                        "item": "minecraft:lightning_rod"
+                    },
+                    "%":{
+                        "item": "minecraft:hopper"
+                    }
+                },
+                "result":{
+                    "item": "minecraft:knowledge_book"
+                }
+            }
+        },
+        {
+            "type": "origins:crafting_recipe",
+            "suffix": "Wings upgrade 2",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "recipe": {
+                "id": "avali:eyes2",
+                "type": "minecraft:crafting_shaped",
+                "pattern": [
+                    "# #",
+                    "$&$",
+                    "% %"
+                ],
+                "key": {
+                    "#":{
+                        "item": "minecraft:crossbow"
+                    },
+                    "$":{
+                        "item": "minecraft:echo_shard"
+                    },
+                    "%":{
+                        "item": "minecraft:tnt"
+                    },
+                    "&":{
+                        "item": "minecraft:fire_charge"
+                    }
+                },
+                "result":{
+                    "item": "minecraft:knowledge_book"
+                }
+            }
+        }
+    ],
+    "name": "Winged Cybernetics",
+    "description": "Your arms and wings can only glide, but you can fix that with cybernetic enhancements!"
+}

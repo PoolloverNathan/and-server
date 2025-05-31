@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "# #",
+        "$ $",
+        "% %"
+    ],
+    "key": {
+        "#":{
+            "item": "minecraft:redstone_torch"
+        },
+        "$":{
+            "item": "minecraft:piston"
+        },
+        "%":{
+            "item": "minecraft:slime_block"
+        }
+    },
+    "result":{
+        "item": "minecraft:knowledge_book"
+    }
+}

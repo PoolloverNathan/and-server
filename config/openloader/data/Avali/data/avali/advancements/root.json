@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:recovery_compass"
+        },
+        "title": "Avali Upgrades",
+        "description": "A basic Avali, not fit for this world... yet. Create mechanical upgrades for yourself, become a creature fit for the world you have been placed in.",
+        "frame": "task",
+        "background": "minecraft:textures/block/iron_block.png",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

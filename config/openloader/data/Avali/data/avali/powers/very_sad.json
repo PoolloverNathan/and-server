@@ -1,0 +1,101 @@
+{
+    "type": "origins:multiple",
+    "cooldown": {
+        "type": "origins:cooldown",
+        "cooldown": 1200,
+        "hud_render": {
+            "should_render": true,
+            "bar_index": 16,
+            "inverted": true,
+            "sprite_location":"origins:textures/gui/community/huang/resource_bar_02.png"
+        }
+    },
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "adfsgvkiabgkasduiyfbasrgoiuyfbasdf"
+        }
+    },
+    "get_rid_of_power": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "*:very_sad_toggle"
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:very_sad_cooldown",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "power remove @s avali:very_sad"
+        }
+    },
+    "activte_power": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:very_sad_cooldown",
+            "comparison": "==",
+            "compare_to": 0
+        },
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:trigger_cooldown",
+            "power": "*:very_sad_cooldown"
+        }
+    },
+    "activate_self_destruct": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_cooldown",
+                    "comparison": ">=",
+                    "compare_to": 1
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "*:*_toggle",
+                    "inverted": true
+                }
+            ]
+        },
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:toggle",
+            "power": "*:very_sad_toggle"
+        }
+    },
+    "atributes":{
+        "type": "origins:attribute",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "operation": "multiply_total",
+                "value": -0.1
+            },
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "operation":"multiply_total",
+                "value": -0.1
+            },
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation":"multiply_total",
+                "value": -0.1
+            }
+        ]
+    }
+}

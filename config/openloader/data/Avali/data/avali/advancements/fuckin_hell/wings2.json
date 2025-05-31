@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:elytra"
+        },
+        "title": "Stickems 20V 2000 SuperLauncher: Avali edition (We are not responsible for death, severe injury, or customer dissatisfaction. Suck our collective cocks.)",
+        "description": "With honey and lightning rods, you've managed to make the best you can with your resources! Now, you can go even higher!",
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": false
+    },
+    "parent": "avali:fuckin_hell/root",
+    "criteria": {
+        "reqirement": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "avali:wings2"
+            }
+        }
+    },
+    "rewards": {
+        "function": "avali:clear_book"
+    }
+}

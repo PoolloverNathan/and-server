@@ -1,0 +1,50 @@
+{
+    "type": "origins:multiple",
+    "display":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "apoli:execute_command",
+            "command": "title @s actionbar {\"text\":\"Moving players near: \",\"extra\":[{\"score\":{\"name\":\"@s\",\"objective\":\"players_near_avali\"}},{\"text\":\", Current ability is Laser Blast\"}]}"
+        },
+        "interval": 1
+    },
+    "blaster":{
+        "type": "origins:active_self",
+        "entity_action": {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:power_active",
+                        "power": "avali:overload_toggle_mode",
+                        "inverted": true
+                    }
+                ]
+            },
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:raycast",
+                    "command_along_ray": "particle minecraft:block blue_concrete ~ ~ ~ 0 0 0 0 5",
+                    "bientity_action": {
+                        "type": "origins:damage",
+                        "amount": 4,
+                        "source": {
+                            "name": "onFire.player",
+                            "bypasses_armor": true,
+                            "unblockable": true,
+                            "magic": true
+                        }
+                    },
+                    "distance": 16
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource":"avali:overload_resource",
+                    "change": 1200,
+                    "operation": "add"
+                }
+            ]
+        }
+    }
+}

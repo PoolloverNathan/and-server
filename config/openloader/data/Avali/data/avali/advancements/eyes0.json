@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:disc_fragment_5"
+        },
+        "title": "Basic avali eyes",
+        "description": "You can barely see with these things! You need to get your claws on some eye enhancements.",
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "avali:root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

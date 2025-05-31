@@ -1,0 +1,63 @@
+{
+    "type": "origins:simple",
+    "badges": [
+        {
+            "type": "origins:crafting_recipe",
+            "suffix": "Eye upgrade 1",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "recipe": {
+                "id": "avali:eyes1",
+                "type": "minecraft:crafting_shaped",
+                "pattern": [
+                    "$%$",
+                    "%^%",
+                    "$%$"
+                ],
+                "key": {
+                    "$":{
+                        "item": "minecraft:torch"
+                    },
+                    "%":{
+                        "item": "minecraft:copper_ingot"
+                    },
+                    "^":{
+                        "item": "minecraft:spyglass"
+                    }
+                },
+                "result":{
+                    "item": "minecraft:knowledge_book"
+                }
+            }
+        },
+        {
+            "type": "origins:crafting_recipe",
+            "suffix": "Eye upgrade 2",
+            "sprite": "origins:textures/gui/badge/info.png",
+            "recipe": {
+                "id": "avali:eyes2",
+                "type": "minecraft:crafting_shaped",
+                "pattern": [
+                    "$%$",
+                    "%^%",
+                    "$%$"
+                ],
+                "key": {
+                    "$":{
+                        "item": "minecraft:glowstone"
+                    },
+                    "%":{
+                        "item": "minecraft:gold_ingot"
+                    },
+                    "^":{
+                        "item": "minecraft:ender_eye"
+                    }
+                },
+                "result":{
+                    "item": "minecraft:knowledge_book"
+                }
+            }
+        }
+    ],
+    "name": "Ocular Cybernetics",
+    "description": "Ocular cybertics can be made to overcome your short sight!"
+}

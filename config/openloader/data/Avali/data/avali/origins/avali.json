@@ -1,0 +1,27 @@
+{
+    "name": "Avali",
+    "description": "Small sentient raptor-like creatures whome rely on their packs to keep eachother sane, and their 2 pairs ears to make up for poor eyesight. Create Cybernetics to enhance yourself, and overcome your shortcomings! But, if you go above 3, there may be some... unintended side effects.",
+    "icon":{
+        "item": "minecraft:recovery_compass"
+    },
+    "impact": 3,
+    "order": 0,
+    "powers":[
+        "avali:packs",
+        "avali:i_can_hear_u",
+        "avali:packs_non_avali",
+        "avali:smaller",
+        "avali:heat_bar",
+        "avali:holy_shit_i_love_tunes",
+        "avali:night_vision",
+        "avali:glide",
+        "avali:power_scroll",
+        "avali:overload",
+        "avali:recipes",
+        "avali:legs",
+        "avali:corer",
+        "avali:wings",
+        "avali:credit"
+    ],
+    "unchoosable": false  
+}

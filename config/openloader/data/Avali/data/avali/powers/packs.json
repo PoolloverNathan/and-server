@@ -1,0 +1,85 @@
+{
+    "type": "origins:multiple",
+    "add_pack": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.saveToolbarActivator"
+        },
+        "entity_action": {
+            "type": "origins:raycast",
+            "distance": 16,
+            "command_at_hit": "execute if entity @p[distance=..2] at @p run function avali:ask_join"
+        },
+        "condition": {
+            "type": "origins:scoreboard",
+            "objective": "avali_pack_member_counter",
+            "compare_to": 6,
+            "comparison": "<"
+        }
+    },
+    "pack_near":{
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:command",
+            "command": "execute at @a[distance=..32] if score @s current_pack = @p current_pack",
+            "compare_to": 1,
+            "comparison": ">"
+        },
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "operation": "multiply_total",
+                "value": 1
+            },
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "operation":"multiply_total",
+                "value": 0.3
+            },
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation":"multiply_total",
+                "value": 0.1
+            }
+        ]
+    },
+    "pack_not_enough":{
+        "type": "origins:conditioned_attribute",
+        "condition": {
+            "type": "origins:scoreboard",
+            "objective": "avali_pack_member_counter",
+            "compare_to": 3,
+            "comparison": "<"
+        },
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "operation": "multiply_total",
+                "value": -0.2
+            },
+            {
+                "attribute": "minecraft:generic.attack_damage",
+                "operation":"multiply_total",
+                "value": -0.2
+            },
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation":"multiply_total",
+                "value": -0.2
+            }
+        ]
+    },
+    "pack_id_init":{
+        "type":"origins:action_on_callback",
+        "entity_action_gained": {
+            "type":"origins:execute_command",
+            "command": "function avali:avali_init"
+        },
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "function avali:clear_book"
+        }
+    },
+    "name": "Packs",
+    "description": "Every Avali needs a pack of at LEAST three, with a max of six. Make sure to get your friends as a part of your pack! (Pack members do not have to be Avali)"
+}

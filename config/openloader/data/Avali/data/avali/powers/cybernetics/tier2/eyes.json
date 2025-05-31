@@ -1,0 +1,14 @@
+{
+    "type": "origins:multiple",
+    "shader": {
+        "type": "origins:shader",
+        "shader": "minecraft:shaders/post/scan_pincushion.json"
+    },
+    "i_can_seeeeeeeeeee":{
+        "type": "origins:effect_immunity",
+        "effects": [
+            "minecraft:blindness",
+            "minecraft:darkness"
+        ]
+    }
+}

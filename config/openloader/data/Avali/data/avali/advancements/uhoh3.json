@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:tnt"
+        },
+        "title": "SYS_WARN: OVERHEAT_EXPLOSION",
+        "description": "Seems like your cybernetics are now in danger of overheating... unrelated note, did you know they used to put water in cars as coolent.",
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "avali:uhoh2"
+}

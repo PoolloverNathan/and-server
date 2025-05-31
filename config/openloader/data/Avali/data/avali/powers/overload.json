@@ -1,0 +1,80 @@
+{
+    "type": "origins:multiple",
+    "name": "Overload",
+    "description": "Every ability you use can cause your active cybernetics to overload. If they fully overload, they stop working.",
+    "resource":{
+        "type": "origins:resource",
+        "max": 6000,
+        "min": 0,
+        "hud_render": {
+            "condition": {
+                "type": "origins:resource",
+                "resource":"*:*_resource",
+                "compare_to": 0,
+                "comparison": "!="
+            },
+            "should_render": true
+        },
+        "max_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:power_active",
+                "power": "*:*_toggle_mode",
+                "inverted": true
+            },
+            "if_action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:toggle",
+                        "power": "*:*_toggle_mode"
+                    },
+                    {
+                        "type": "origins:play_sound",
+                        "sound": "entity.zombie_villager.cure"
+                    }
+                ]
+            }
+        },
+        "min_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:power_active",
+                "power": "*:*_toggle_mode"
+            },
+            "if_action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:toggle",
+                        "power": "*:*_toggle_mode"
+                    },
+                    {
+                        "type": "origins:play_sound",
+                        "sound": "entity.zombie_villager.converted"
+                    }
+                ]
+            }
+        }
+    },
+    "cooldown":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource":"*:*_resource",
+            "change": -10,
+            "operation": "add"
+        },
+        "interval": 10
+    },
+    "toggle_mode":{
+        "type": "origins:toggle",
+        "key":{
+            "key": "FSDFSGDERGDFBVFDV"
+        },
+        "active_by_default": false
+    },
+    "badges": [
+        
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "type": "apoli:action_over_time",
+    "entity_action": {
+        "type": "origins:exhaust",
+        "amount": 0.025
+    },
+    "interval": 5
+}

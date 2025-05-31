@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "$%$",
+        "%^%",
+        "$%$"
+    ],
+    "key": {
+        "$":{
+            "item": "minecraft:snowball"
+        },
+        "%":{
+            "item": "minecraft:copper_ingot"
+        },
+        "^":{
+            "item": "minecraft:powder_snow_bucket"
+        }
+    },
+    "result":{
+        "item": "minecraft:knowledge_book"
+    }
+}

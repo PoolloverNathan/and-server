@@ -1,0 +1,18 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:piston"
+        },
+        "title": "Leg-up V2 3000HP Upanatem",
+        "description": "These bad boys can boost you up into the air, allowing you to have a good boost in gliding! It's not flying, but it'll have to do.",
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "avali:legs0",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:hopper"
+        },
+        "title": "Vandelay productions Armstrong arm: Garbage collection edition",
+        "description": {
+            "text": "The Armstrong Garbage collection robotic enhancement arm allows you to collect Garbage at a range of 32 meters around you! (Please stop messaging us about musical robot powers)"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "avali:wings0",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

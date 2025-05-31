@@ -1,0 +1,13 @@
+{
+    "type": "origins:multiple",
+    "set_score":{
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "apoli:execute_command",
+            "command": "execute store result score @s players_near_avali run execute if entity @e[distance=1..64, predicate=avali:can_be_heard]"
+        },
+        "interval": 1
+    },
+    "name":"Sensitive ears",
+    "description": "You can hear players that move around you, allowing you to see them wherever you are as long as they are moving."
+}

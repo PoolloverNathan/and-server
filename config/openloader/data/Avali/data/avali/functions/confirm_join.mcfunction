@@ -1,0 +1,2 @@
+tellraw @s {"text":"Hey! You're already part of a pack! are you REALLY SURE you want to LEAVE your current pack and ","extra":[{"text":"JOIN","color":"blue","bold":true,"underlined":true,"clickEvent":{"action":"run_command","value":"/trigger join_pack set -1"}},{"text":" another?"}]}
+scoreboard players enable @s join_pack

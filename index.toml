@@ -104,6 +104,10 @@ file = "mods/cccbridge.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/chest-tracker.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/chunk-loaders.pw.toml"
 metafile = true
 
@@ -460,11 +464,19 @@ file = "mods/xaero-zoomout.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/xaeros-map-chest-tracker-integration.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/xaeros-minimap.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/yacl.pw.toml"
 metafile = true
 
 [[files]]

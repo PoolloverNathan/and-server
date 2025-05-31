@@ -1,0 +1,6 @@
+{
+    "type": "origins:elytra_flight",
+    "render_elytra": false,
+    "name": "Feathered arms",
+    "description": "Your arms have feathered extentions, allowing you to glide!"
+}
