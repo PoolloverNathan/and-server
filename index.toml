@@ -7,6 +7,1833 @@ file = "compose.yml"
 file = "config/fabric_loader_dependencies.json"
 
 [[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/origins/arachnidplus.json"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/carnivore2.json"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/climbing2.json"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/eyes.json"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/master_of_webs2.json"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/monster_food.json"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/octadic.json"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/place_webs.json"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/powers/steal.json"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/arachnidplus/tags/items/veggie.json"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/ArachnidPlus/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/core0.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/core1.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/core2.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/eyes0.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/eyes1.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/eyes2.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/fuckin_hell/core1.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/fuckin_hell/core2.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/fuckin_hell/eyes1.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/fuckin_hell/eyes2.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/fuckin_hell/legs1.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/fuckin_hell/legs2.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/fuckin_hell/root.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/fuckin_hell/wings1.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/fuckin_hell/wings2.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/legs0.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/legs1.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/legs2.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/root.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/uhoh1.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/uhoh2.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/uhoh3.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/uhoh4.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/uhoh5.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/wings0.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/wings1.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/advancements/wings2.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/ask_join.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/avali_init.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/avali_spit.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/branch_off.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/clear_book.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/confirm_join.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/count_pack_members.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/give_abilitys/legs1.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/give_abilitys/legs2.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/give_abilitys/remove_abilitys.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/give_abilitys/wings1.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/give_abilitys/wings2.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/give_cybernetics.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/got_hurt.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/join_pack.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/laundry.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/leave_pack.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/load.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/pack_init.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/raycast.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/return_policy/core1.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/return_policy/core2.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/return_policy/eyes1.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/return_policy/eyes2.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/return_policy/legs1.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/return_policy/legs2.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/return_policy/wings1.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/return_policy/wings2.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/scale.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/set_pack_to_null.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/spit_back_items.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/functions/tick.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/origins/avali.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/corer.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/credit.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/cybernetics/abilitys/legs1.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/cybernetics/abilitys/legs2.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/cybernetics/abilitys/no_ability.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/cybernetics/abilitys/spectator_basically.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/cybernetics/abilitys/wings1.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/cybernetics/abilitys/wings2.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/cybernetics/no_upgrades/core.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/cybernetics/no_upgrades/eyes.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/cybernetics/tier1/core.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/cybernetics/tier1/eyes.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/cybernetics/tier2/core.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/cybernetics/tier2/eyes.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/cybernetics/too_many/uhoh1.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/cybernetics/too_many/uhoh2.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/cybernetics/too_many/uhoh3.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/cybernetics/too_many/uhoh4.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/cybernetics/too_many/uhoh5.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/glide.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/glowing.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/heat_bar.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/holy_shit_i_love_tunes.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/hurt_alert.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/i_can_hear_u.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/legs.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/night_vision.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/overload.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/pack_loss.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/packs.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/packs_non_avali.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/power_scroll.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/recipes.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/smaller.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/very_sad.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/powers/wings.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/predicates/can_be_heard.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/predicates/has_ability.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/predicates/is_avali.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/recipes/core1.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/recipes/core2.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/recipes/eyes1.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/recipes/eyes2.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/recipes/legs1.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/recipes/legs2.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/recipes/wings1.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/avali/recipes/wings2.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/minecraft/tags/functions/load.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/minecraft/tags/functions/tick.json"
+
+[[files]]
+file = "config/openloader/data/Avali/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Avali/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Cecaelia_Origin_v1.0/data/cecaelia/origins/cecaelia.json"
+
+[[files]]
+file = "config/openloader/data/Cecaelia_Origin_v1.0/data/cecaelia/powers/boneless.json"
+
+[[files]]
+file = "config/openloader/data/Cecaelia_Origin_v1.0/data/cecaelia/powers/ink_sac.json"
+
+[[files]]
+file = "config/openloader/data/Cecaelia_Origin_v1.0/data/cecaelia/powers/invertebrate.json"
+
+[[files]]
+file = "config/openloader/data/Cecaelia_Origin_v1.0/data/cecaelia/powers/suction_cups.json"
+
+[[files]]
+file = "config/openloader/data/Cecaelia_Origin_v1.0/data/cecaelia/powers/tentacles.json"
+
+[[files]]
+file = "config/openloader/data/Cecaelia_Origin_v1.0/data/cecaelia/powers/water_vision.json"
+
+[[files]]
+file = "config/openloader/data/Cecaelia_Origin_v1.0/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Cecaelia_Origin_v1.0/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/origins/altcentaur.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/horse_kick.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/imposing.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/large_stance.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/no_swimming.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/rideable.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/data/altcentaur/powers/robust.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_Alt_v1.4.0_1.20.1/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/origins/centaur.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/archery_specialist.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/equine_diet.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/horse_kick.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/imposing.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/large_stance.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/melee_inaptitude.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/prevent_eat.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/ranged_enchanter.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/rideable.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/powers/robust.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/tags/items/equine_diet_foods.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/centaur/tags/items/vanilla_edible_foods.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Centaur_Origin_v1.4.0_1.20.1/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/origins/cervitaur.json"
+
+[[files]]
+file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/cervid_agility.json"
+
+[[files]]
+file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/cervid_diet.json"
+
+[[files]]
+file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/get_out_of_there.json"
+
+[[files]]
+file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/get_out_of_there_tooltip.json"
+
+[[files]]
+file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/graceful_stance.json"
+
+[[files]]
+file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/intriguing_lights.json"
+
+[[files]]
+file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/keen_senses.json"
+
+[[files]]
+file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/light_hypnosis.json"
+
+[[files]]
+file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/prevent_eat.json"
+
+[[files]]
+file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/resolute.json"
+
+[[files]]
+file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/powers/victim_of_the_hunt.json"
+
+[[files]]
+file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/tags/items/cervid_diet_foods.json"
+
+[[files]]
+file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/tags/items/vanilla_edible_foods.json"
+
+[[files]]
+file = "config/openloader/data/Cervitaur_Origin_v1.0/data/cervitaur/tags/items/weapons.json"
+
+[[files]]
+file = "config/openloader/data/Cervitaur_Origin_v1.0/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Cervitaur_Origin_v1.0/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/origins/charizard.json"
+
+[[files]]
+file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/berry_devourer.json"
+
+[[files]]
+file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_aerial_vulnerability.json"
+
+[[files]]
+file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_appetite.json"
+
+[[files]]
+file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_bulk.json"
+
+[[files]]
+file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_creative_flight.json"
+
+[[files]]
+file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_fire_type.json"
+
+[[files]]
+file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_flamethrower.json"
+
+[[files]]
+file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_flamethrower_fuel.json"
+
+[[files]]
+file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_hurricane.json"
+
+[[files]]
+file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_hurricane_fuel.json"
+
+[[files]]
+file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_hurricane_strong_and_weak.json"
+
+[[files]]
+file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_size.json"
+
+[[files]]
+file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_transport.json"
+
+[[files]]
+file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/charizard_winged.json"
+
+[[files]]
+file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/charizard/powers/light.json"
+
+[[files]]
+file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/origins/dexterous_elf.json"
+
+[[files]]
+file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/backpack.json"
+
+[[files]]
+file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/body.json"
+
+[[files]]
+file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/cave.json"
+
+[[files]]
+file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/dash.json"
+
+[[files]]
+file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/diet.json"
+
+[[files]]
+file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/hide.json"
+
+[[files]]
+file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/incompetence.json"
+
+[[files]]
+file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/nature.json"
+
+[[files]]
+file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/particles.json"
+
+[[files]]
+file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/proficiency.json"
+
+[[files]]
+file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/pyrophobia.json"
+
+[[files]]
+file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/powers/senses.json"
+
+[[files]]
+file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/tags/items/heavy_weapons.json"
+
+[[files]]
+file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/tags/items/swords.json"
+
+[[files]]
+file = "config/openloader/data/Dexterous_Elf_1.0.1/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Dexterous_Elf_1.0.1/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/origins/furrettaur.json"
+
+[[files]]
+file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/powers/defense_curl.json"
+
+[[files]]
+file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/powers/furret_agility.json"
+
+[[files]]
+file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/powers/fury_swipes.json"
+
+[[files]]
+file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/powers/noodley_body.json"
+
+[[files]]
+file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/powers/quick_paws.json"
+
+[[files]]
+file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/powers/rapid_metabolism.json"
+
+[[files]]
+file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/powers/run_away.json"
+
+[[files]]
+file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/powers/short_legs.json"
+
+[[files]]
+file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/powers/unequipped_frame.json"
+
+[[files]]
+file = "config/openloader/data/Furrettaur_Origin_v1.1/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Furrettaur_Origin_v1.1/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/GhastOrigin/data/ghastorigin/origins/ghast.json"
+
+[[files]]
+file = "config/openloader/data/GhastOrigin/data/ghastorigin/powers/throw_fire_charge.json"
+
+[[files]]
+file = "config/openloader/data/GhastOrigin/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/GhastOrigin/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/GhastOrigin/pack.png"
+
+[[files]]
+file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/origins/giraffetaur.json"
+
+[[files]]
+file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/chiropractors_nightmare.json"
+
+[[files]]
+file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/disclaimer.json"
+
+[[files]]
+file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/folivore.json"
+
+[[files]]
+file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/folivore_generics.json"
+
+[[files]]
+file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/folivore_tooltips.json"
+
+[[files]]
+file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/giraffes_hide.json"
+
+[[files]]
+file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/giraffes_vitality.json"
+
+[[files]]
+file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/lanky_legs.json"
+
+[[files]]
+file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/prevent_eat.json"
+
+[[files]]
+file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/savanna_acclimation.json"
+
+[[files]]
+file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/giraffetaur/powers/silk_touch_leaves.json"
+
+[[files]]
+file = "config/openloader/data/Giraffetaur_Origin_v1.0/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Giraffetaur_Origin_v1.0/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/functions/ice.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/origins/statue.json"
+
+[[files]]
+file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/powers/break.json"
+
+[[files]]
+file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/powers/desc1.json"
+
+[[files]]
+file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/powers/desc2.json"
+
+[[files]]
+file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/powers/desc3.json"
+
+[[files]]
+file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/powers/desc4.json"
+
+[[files]]
+file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/powers/frosty.json"
+
+[[files]]
+file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/powers/frozen.json"
+
+[[files]]
+file = "config/openloader/data/Ice Statue 1.0.0/data/ice_statue/powers/shader.json"
+
+[[files]]
+file = "config/openloader/data/Ice Statue 1.0.0/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Ice Statue 1.0.0/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/origins/lamia.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/powers/fangs.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/powers/lamia_anti_jump.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/powers/lamia_coiling.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/powers/lamia_hesitation.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/powers/lamia_prevent_coil_damaging.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/powers/lamia_slithering_serpent.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/powers/poison_shot.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/powers/scale_armor.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/tags/entity_types/lamia_coilable.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/lamia/tags/entity_types/lamia_hesitant.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Lamia/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/origins/lapras.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/berry_devourer.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_appetite.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_bulk.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_depth_strider_one.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_depth_strider_three.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_depth_strider_two.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_dismount.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_flippers.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_hydration.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_hydration_bottle.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_hydration_effects.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_ice_type.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_invincibility.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_jumpspeed.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_no_elytra.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_no_knockback.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_rain_speed.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_rehydrate.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_remove_hydration.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_remove_hydration_cold.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_shell.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_shell_toughness.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_size.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_swim.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_transport.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_water_absorb.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_water_type.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_water_type_cold.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_water_type_cold_strong_against.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_water_type_cold_weak_against.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_water_type_strong_against.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/lapras_water_type_weak_against.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/pokemon_of_the_seas.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/powers/pokemon_of_the_seas_turtle_helmet.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/tags/entity_types/weak_to_lapras_ice_beam.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/lapras/tags/entity_types/weak_to_lapras_water_gun.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Laprastaur_Origin_v4.5/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Mechanical Golem/data/mechbot/origins/golem.json"
+
+[[files]]
+file = "config/openloader/data/Mechanical Golem/data/mechbot/powers/artificial.json"
+
+[[files]]
+file = "config/openloader/data/Mechanical Golem/data/mechbot/powers/burnout.json"
+
+[[files]]
+file = "config/openloader/data/Mechanical Golem/data/mechbot/powers/gearup.json"
+
+[[files]]
+file = "config/openloader/data/Mechanical Golem/data/mechbot/powers/heat.json"
+
+[[files]]
+file = "config/openloader/data/Mechanical Golem/data/mechbot/powers/metalshell.json"
+
+[[files]]
+file = "config/openloader/data/Mechanical Golem/data/mechbot/powers/shellbonus.json"
+
+[[files]]
+file = "config/openloader/data/Mechanical Golem/data/mechbot/powers/sinkingin.json"
+
+[[files]]
+file = "config/openloader/data/Mechanical Golem/data/mechbot/powers/upgrade.json"
+
+[[files]]
+file = "config/openloader/data/Mechanical Golem/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Mechanical Golem/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Mechanical Golem/pack.png"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/Makefile"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/origins/mermaid.json"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/bait_diet.json"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/bettertrades.json"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/breatheunderwater.json"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/fish_diet.json"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/flammable.json"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/hydration.json"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/hydrationgain.json"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/nolegs.json"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/slowonland.json"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/powers/song.json"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/tags/items/bait.json"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/mermaid_origin/tags/items/fish.json"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/gen_bait.py"
+
+[[files]]
+file = "config/openloader/data/Mermaid_Origin_2.0.1/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/computer_advanced.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/computer_advanced_upgrade.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/computer_normal.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_1.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_10.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_11.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_12.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_13.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_14.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_15.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_16.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_2.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_3.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_4.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_5.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_6.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_7.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_8.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_9.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/disk_drive.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/pocket_computer_advanced.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/pocket_computer_advanced_upgrade.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/pocket_computer_normal.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/wired_modem.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/wireless_modem_advanced.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/computercraft/recipes/wireless_modem_normal.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/data/createaddition/recipes/mixing/bioethanol.json"
+
+[[files]]
+file = "config/openloader/data/More CC Tweaks/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/origins/neoforged_fox.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/burst.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/fireproof.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/frail.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/lightweight.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/natural_swimmer.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/short.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/size_toggle.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/slender.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/sneaky.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/neoforged_fox/powers/strong_eyes.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/origins/serperior.json"
+
+[[files]]
+file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/berry_devourer.json"
+
+[[files]]
+file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_anti_jump.json"
+
+[[files]]
+file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_coiling.json"
+
+[[files]]
+file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_grass_type.json"
+
+[[files]]
+file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_hesitation.json"
+
+[[files]]
+file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_leaf_storm.json"
+
+[[files]]
+file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_leaf_storm_fuel.json"
+
+[[files]]
+file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_leaf_storm_strong_and_weak.json"
+
+[[files]]
+file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_overgrow.json"
+
+[[files]]
+file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_photosynthesis.json"
+
+[[files]]
+file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_prevent_coil_damaging.json"
+
+[[files]]
+file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/powers/serperior_slithering_serpent.json"
+
+[[files]]
+file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/tags/entity_types/serperior_coilable.json"
+
+[[files]]
+file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/tags/entity_types/serperior_hesitant.json"
+
+[[files]]
+file = "config/openloader/data/Serperiortaur_Origin_v1.0/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/origins/slime_taur.json"
+
+[[files]]
+file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/bouncy.json"
+
+[[files]]
+file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/buoyant.json"
+
+[[files]]
+file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/cold_sensitive.json"
+
+[[files]]
+file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/legless.json"
+
+[[files]]
+file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/moisture.json"
+
+[[files]]
+file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/moisture_changing.json"
+
+[[files]]
+file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/moisture_food.json"
+
+[[files]]
+file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/one_in_the_same.json"
+
+[[files]]
+file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/slimey.json"
+
+[[files]]
+file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/powers/varied_sizing.json"
+
+[[files]]
+file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/tags/blocks/slippery_default.json"
+
+[[files]]
+file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/tags/items/moisture_food_big.json"
+
+[[files]]
+file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/tags/items/moisture_food_med.json"
+
+[[files]]
+file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/tags/items/moisture_food_small.json"
+
+[[files]]
+file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/origins/wailordtaur.json"
+
+[[files]]
+file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/colossal_diet.json"
+
+[[files]]
+file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/fish_only.json"
+
+[[files]]
+file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/gargantuan_lungs.json"
+
+[[files]]
+file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/natural_habitat.json"
+
+[[files]]
+file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/no_elytra.json"
+
+[[files]]
+file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/no_mounting.json"
+
+[[files]]
+file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/piscivore.json"
+
+[[files]]
+file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/rain_dance.json"
+
+[[files]]
+file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/soak.json"
+
+[[files]]
+file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/soaked.json"
+
+[[files]]
+file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/superweighted.json"
+
+[[files]]
+file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/thick_blubber.json"
+
+[[files]]
+file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/wailord_fins.json"
+
+[[files]]
+file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/wailord_tongue/powers/wailord_mass.json"
+
+[[files]]
+file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/chestling/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/chestling/data/pin/origins/chest.json"
+
+[[files]]
+file = "config/openloader/data/chestling/data/pin/powers/bodystore.json"
+
+[[files]]
+file = "config/openloader/data/chestling/data/pin/powers/food.json"
+
+[[files]]
+file = "config/openloader/data/chestling/data/pin/powers/oak.json"
+
+[[files]]
+file = "config/openloader/data/chestling/data/pin/structures/debugblocks.nbt"
+
+[[files]]
+file = "config/openloader/data/chestling/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/foxplush/Catalyst SMP SEASON 5 (1).zip"
+
+[[files]]
+file = "config/openloader/data/foxplush/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/foxplush/data/pin/functions/size.mcfunction"
+
+[[files]]
+file = "config/openloader/data/foxplush/data/pin/origins/fox_plush.json"
+
+[[files]]
+file = "config/openloader/data/foxplush/data/pin/powers/death.json"
+
+[[files]]
+file = "config/openloader/data/foxplush/data/pin/powers/featherweight.json"
+
+[[files]]
+file = "config/openloader/data/foxplush/data/pin/powers/food.json"
+
+[[files]]
+file = "config/openloader/data/foxplush/data/pin/powers/hike.json"
+
+[[files]]
+file = "config/openloader/data/foxplush/data/pin/powers/pounce.json"
+
+[[files]]
+file = "config/openloader/data/foxplush/data/pin/powers/shelfsize.json"
+
+[[files]]
+file = "config/openloader/data/foxplush/data/pin/powers/stolen_life.json"
+
+[[files]]
+file = "config/openloader/data/foxplush/data/pin/powers/sugar.json"
+
+[[files]]
+file = "config/openloader/data/foxplush/index.png"
+
+[[files]]
+file = "config/openloader/data/foxplush/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/CREDITS.txt"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage0.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage1.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage2.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage3.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/origins/stage4.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/atrophied.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/edible.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/malleable_body.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/moisture.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/moisture_changing.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/moisture_food.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_boots.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_chestplate.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_helmet.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_leggings.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_main.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/no_muscles_off.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/shrinking1.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/shrinking2.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/shrinking3.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/soft_body.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/squishy_feet.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/stage1trigger.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/stage2trigger.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/stage3trigger.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/sticky_body.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/varied_sizing.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/varied_sizing2.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/powers/wormify.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/tags/blocks/slippery_default.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/tags/items/moisture_food_big.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/tags/items/moisture_food_med.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gum/tags/items/moisture_food_small.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/origins/gorgon.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/delicate_snakes.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/diet.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/eatingyum.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/effect_immune.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/gummy_sight.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/hard_scales.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/magic_guard.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/melted_hair.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/more_mortal.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/snake_eyes.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/sticky_slash.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/gummy/powers/swamp_spawn.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/origins/origin_layers/gummyfication.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/gummy-gorgon-origin/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/minecraft/tags/functions/load.json"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/clear.mcfunction"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/compare_pos.mcfunction"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/compare_pos/determine_scale.mcfunction"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/remove_tags.mcfunction"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/scale/by_10/x.mcfunction"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/scale/by_10/y.mcfunction"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/scale/by_10/z.mcfunction"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/scale/by_100/x.mcfunction"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/scale/by_100/y.mcfunction"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/impl/scale/by_100/z.mcfunction"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/load.mcfunction"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/state/horizontally.mcfunction"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/functions/state/vertically.mcfunction"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/moving/powers/state.json"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/phantom/origins/phantom.json"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/phantom/powers/burn.json"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/phantom/powers/demonic_sight.json"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/phantom/powers/fly.json"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/phantom/powers/friendlyphantom.json"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/phantom/powers/makefriendlyphantom.json"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/phantom/powers/see.json"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/data/phantom/powers/weakness.json"
+
+[[files]]
+file = "config/openloader/data/mobsorigins/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/minecraft/tags/functions/tick.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/functions/area_effect_fix.mcfunction"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/origins/3dl_statue_leaf.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/origins/3dl_tanooki_leaf.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/origins/3dl_white_tanooki_leaf.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/origins/b3_p_wing.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/origins/b3_super_leaf.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/origins/b3_tanooki_suit.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/origins/eazs_leaf_character.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/origins/nb2_white_super_leaf.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/b3_flight.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/b3_flutter.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/eazs_leaf.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/nb2_white_leaf.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/p_boost.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/p_speed.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/p_wing.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/star_power.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/statue.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/statue_form.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/data/poweredup/powers/tail_attack.json"
+
+[[files]]
+file = "config/openloader/data/poweredup/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/poweredup/pack.png"
+
+[[files]]
+file = "config/openloader/data/snail/README.md"
+
+[[files]]
+file = "config/openloader/data/snail/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/origins/snail.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/powers/Block hunger values.txt"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/powers/ceiling_climb.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/powers/mega_slowpoke.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/powers/no_legs.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/powers/plant_eating.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/powers/poor_vision.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/powers/ride_buff.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/powers/smol.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/powers/solid_shell.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/tags/blocks/1hunger1saturation.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/tags/blocks/2hunger2saturation.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/tags/blocks/3hunger1saturation.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/tags/blocks/3hunger3saturation.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/tags/blocks/4hunger2saturation.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/tags/blocks/5hunger5saturation.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/tags/blocks/6hunger8saturation.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/tags/blocks/7hunger9saturation.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/tags/blocks/9hunger9saturation.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/tags/blocks/crimson.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/tags/blocks/crimson_weak.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/tags/blocks/nylium.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/tags/blocks/warped.json"
+
+[[files]]
+file = "config/openloader/data/snail/data/snail/tags/blocks/warped_weak.json"
+
+[[files]]
+file = "config/openloader/data/snail/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/black.mcfunction"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/blue.mcfunction"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/brown.mcfunction"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/cyan.mcfunction"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/green.mcfunction"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/grey.mcfunction"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/light_blue.mcfunction"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/light_grey.mcfunction"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/lime.mcfunction"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/magenta.mcfunction"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/orange.mcfunction"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/pink.mcfunction"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/purple.mcfunction"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/red.mcfunction"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/white.mcfunction"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/yellow.mcfunction"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/origins/baaa.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/beingsheared.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/color_set.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/current_color.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/currently_fluffy.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/fern.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/fluff_down.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/getshearedeffects.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/gettinsheared.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/grass.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/grassblock.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/largefern.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/rainbowgapple.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/rainbowgodapple.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/soft_landing.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/stuffduringshear.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/tallgrass.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/powers/vegetarianism.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/tags/items/dyes.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/wooly1.1_1.20.1-/pack.png"
+
+[[files]]
 file = "config/vowels-packwiz.json"
 
 [[files]]
