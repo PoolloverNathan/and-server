@@ -2260,6 +2260,10 @@ file = "mods/seamless.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/simple-voice-chat.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/storagent.pw.toml"
 metafile = true
 
@@ -2308,10 +2312,6 @@ metafile = true
 
 [[files]]
 file = "mods/xaero-zoomout.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/xaeros-map-chest-tracker-integration.pw.toml"
 metafile = true
 
 [[files]]
