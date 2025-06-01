@@ -11,3 +11,8 @@ hash = "e1646a534c3d93a67d1df3d81038ade39888f4725237882524b85d29471680df150e6776
 [update.modrinth]
 mod-id = "ni4SrKmq"
 version = "NezoxDmT"
+
+[option]
+optional = true
+default = true
+description = "Maintains a searchable index of chest contents."
