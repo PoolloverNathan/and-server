@@ -1927,6 +1927,10 @@ file = "mods/caves__canyons.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/cb-compressed-blocks.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked.pw.toml"
 metafile = true
 
@@ -1936,6 +1940,14 @@ metafile = true
 
 [[files]]
 file = "mods/chest-tracker.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/chipped-x-create-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/chipped.pw.toml"
 metafile = true
 
 [[files]]
@@ -2006,6 +2018,10 @@ metafile = true
 file = "mods/ensculked-0.1.4-pre.1+1.20.1+eazs.jar"
 
 [[files]]
+file = "mods/etcetera.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/explosive-enhancement.pw.toml"
 metafile = true
 
@@ -2054,6 +2070,10 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-teams-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fusion-connected-textures.pw.toml"
 metafile = true
 
 [[files]]
@@ -2240,6 +2260,10 @@ file = "mods/ratatouille.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/rechiseled.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/rei.pw.toml"
 metafile = true
 
@@ -2269,6 +2293,10 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/stitch.pw.toml"
 metafile = true
 
 [[files]]

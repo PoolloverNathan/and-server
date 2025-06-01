@@ -1,0 +1,13 @@
+name = "Chipped x Create Fabric"
+filename = "chcf-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ncbuvyrf/versions/Q9Q2uYPe/chcf-1.0.0.jar"
+hash-format = "sha512"
+hash = "af76127fb18b0e433a574932e47752033eeb848aa8982ce5bf1347152094e8b107d1bc69c6a1341c6fe24cc5e0d41d2169a2c2c022c595ff6a92f63eddde39f3"
+
+[update]
+[update.modrinth]
+mod-id = "Ncbuvyrf"
+version = "Q9Q2uYPe"
