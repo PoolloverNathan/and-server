@@ -53,6 +53,10 @@ file = "mods/armorpoints.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/arsenal.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/artifacts.pw.toml"
 metafile = true
 
@@ -121,6 +125,10 @@ metafile = true
 
 [[files]]
 file = "mods/coolrain.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/copycats.pw.toml"
 metafile = true
 
 [[files]]
@@ -390,6 +398,10 @@ metafile = true
 
 [[files]]
 file = "mods/quad.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ratatouille.pw.toml"
 metafile = true
 
 [[files]]
