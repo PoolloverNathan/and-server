@@ -2116,10 +2116,6 @@ file = "mods/hexical.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/hextweaks.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/hexweb.pw.toml"
 metafile = true
 
