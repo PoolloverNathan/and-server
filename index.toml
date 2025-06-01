@@ -2280,6 +2280,14 @@ file = "mods/sushi-bar.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/switchy-teleport.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/switchy.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/trinkets.pw.toml"
 metafile = true
 
