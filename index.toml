@@ -1971,6 +1971,14 @@ file = "mods/critters-and-companions.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/deathlog.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/deep-mob-learning-refabricated.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/dimensional-tears.pw.toml"
 metafile = true
 
@@ -2308,6 +2316,10 @@ file = "mods/vowels-1.0.0+1.20.1.jar"
 
 [[files]]
 file = "mods/weeping-angels.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/worldedit.pw.toml"
 metafile = true
 
 [[files]]
