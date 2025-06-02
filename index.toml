@@ -1840,6 +1840,12 @@ file = "config/vowels-packwiz.json"
 file = "icon.png"
 
 [[files]]
+file = "kubejs/server_scripts/recipes.js"
+
+[[files]]
+file = "kubejs/startup_scripts/items.js"
+
+[[files]]
 file = "mods/ad-astra.pw.toml"
 metafile = true
 
@@ -1972,6 +1978,10 @@ metafile = true
 
 [[files]]
 file = "mods/craterlib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-enchantment-industry-fabric.pw.toml"
 metafile = true
 
 [[files]]
@@ -2157,6 +2167,10 @@ metafile = true
 
 [[files]]
 file = "mods/krypton.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/kubejs-create-for-fabric-1-20-1.pw.toml"
 metafile = true
 
 [[files]]
