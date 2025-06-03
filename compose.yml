@@ -19,7 +19,14 @@ services:
     ports:
       - 39781:25565
       - 42279:42279/udp
-
+    develop:
+      watch:
+        - action: sync
+          path: kubejs/server_scripts
+          target: /mnt/kubejs/server_scripts
+        - action: sync+restart
+          path: kubejs/startup_scripts
+          target: /mnt/kubejs/startup_scripts
   console:
     image: docker.pool.net.eu.org/tmux
     profiles:
