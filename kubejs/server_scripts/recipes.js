@@ -6,4 +6,12 @@ ServerEvents.recipes(event => {
     'minecraft:crafting_table',
     '#c:workbench',
   )
+
+  function emptiesIntoXP(points, item) {
+    event.recipes.create.emptying([Fluid.of("create_enchantment_industry:experience", FluidAmounts.MB * points)], item)
+  }
+  emptiesIntoXP(3, "create:experience_nugget")
+  emptiesIntoXP(10, "dml-refabricated:overworld_matter")
+  emptiesIntoXP(14, "dml-refabricated:hellish_matter")
+  emptiesIntoXP(20, "dml-refabricated:extraterrestrial_matter")
 })

@@ -1,0 +1,13 @@
+name = "Truly Modular: Arsenal"
+filename = "Truly-Modular-arsenal-arsenal-fabric-1.13-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/V4LaId7f/versions/PnlI7wUc/Truly-Modular-arsenal-arsenal-fabric-1.13-1.20.1.jar"
+hash-format = "sha512"
+hash = "27725ecb695253525bf41082aafe81e98b872989fd87fe602e4b3e709fe72c7dcaeaf5c61441aac20f6b22268c25bcea460d11dc2ada04d26d4c3b06880cd9dc"
+
+[update]
+[update.modrinth]
+mod-id = "V4LaId7f"
+version = "PnlI7wUc"
