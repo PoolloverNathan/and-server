@@ -2162,6 +2162,14 @@ file = "mods/ioticblocks.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/jade-addons-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/kambrik.pw.toml"
 metafile = true
 
@@ -2183,6 +2191,10 @@ metafile = true
 
 [[files]]
 file = "mods/lootr.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/luckperms.pw.toml"
 metafile = true
 
 [[files]]

@@ -19,6 +19,11 @@ services:
     ports:
       - 39781:25565
       - 42279:42279/udp
+    deploy:
+      resources:
+        limits:
+          cpus: 3
+          memory: 8G
     develop:
       watch:
         - action: sync

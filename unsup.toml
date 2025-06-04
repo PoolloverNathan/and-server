@@ -42,3 +42,6 @@ flavors = ["emi"]
 
 [metafile.rei]
 flavors = ["rei"]
+
+[metafile.jade-addons-fabric]
+flavors = ["jade_on"]
