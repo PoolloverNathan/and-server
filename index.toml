@@ -7,6 +7,9 @@ file = "compose.yml"
 file = "config/fabric_loader_dependencies.json"
 
 [[files]]
+file = "config/inventorio_shared.json"
+
+[[files]]
 file = "config/openloader/data/ArachnidPlus/data/arachnidplus/origins/arachnidplus.json"
 
 [[files]]
@@ -2032,7 +2035,7 @@ metafile = true
 file = "mods/ensculked-0.1.4-pre.1+1.20.1+eazs.jar"
 
 [[files]]
-file = "mods/etcetera.pw.toml"
+file = "mods/etcetera-.pw.toml"
 metafile = true
 
 [[files]]
