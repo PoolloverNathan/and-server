@@ -1,0 +1,15 @@
+name = "stars"
+filename = "stars-0.1.0-pre.3.jar"
+side = "both"
+
+[download]
+url = "https://github.com/PoolloverNathan/stars/releases/download/0.1.0-pre.3/stars-0.1.0-pre.3.jar"
+hash-format = "sha256"
+hash = "66a121b2adeb692edcaaccc4aab8fe73b68b0c1a3fc91eae13fe0dd8302c33a8"
+
+[update]
+[update.github]
+branch = "main"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "PoolloverNathan/stars"
+tag = "0.1.0-pre.3"

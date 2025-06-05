@@ -2349,6 +2349,14 @@ file = "mods/sophisticated-core-(unofficial-fabric-port).pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/sophisticated-storage-(unofficial-fabric-port).pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/stars.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/stitch.pw.toml"
 metafile = true
 
