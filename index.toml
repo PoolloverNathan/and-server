@@ -2133,8 +2133,7 @@ file = "mods/hexical.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/hextweaks.pw.toml"
-metafile = true
+file = "mods/hextweaks-5.2.4.jar"
 
 [[files]]
 file = "mods/hexweb.pw.toml"
