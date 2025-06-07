@@ -2295,6 +2295,10 @@ file = "mods/powah.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/probejs.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/quad.pw.toml"
 metafile = true
 
