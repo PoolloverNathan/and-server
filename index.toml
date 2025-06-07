@@ -2129,15 +2129,10 @@ file = "mods/hexdebug.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/hexical.pw.toml"
-metafile = true
+file = "mods/hexical-2.0.0.jar"
 
 [[files]]
 file = "mods/hextweaks-5.2.4.jar"
-
-[[files]]
-file = "mods/hexweb.pw.toml"
-metafile = true
 
 [[files]]
 file = "mods/immersiveportals.pw.toml"
