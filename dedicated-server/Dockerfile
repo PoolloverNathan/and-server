@@ -4,6 +4,7 @@ ADD https://git.sleeping.town/unascribed/unsup/releases/download/v1.0.2/unsup-1.
 ADD server-unsup.ini /app/unsup.ini
 COPY --link --from=pack / /app/pack
 COPY server-start.sh /app/start.sh
+COPY --from=itzg/mc-monitor /mc-monitor /app/mc-monitor
 
 FROM amazoncorretto:21-alpine3.21
 RUN apk add tmux btrfs-progs neovim bash

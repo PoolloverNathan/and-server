@@ -23,7 +23,12 @@ services:
       resources:
         limits:
           cpus: 3
-          memory: 8G
+          memory: 12G
+    healthcheck:
+      test: /app/mc-monitor status
+      start_period: 5m
+      interval: 5s
+      retries: 3
     develop:
       watch:
         - action: sync

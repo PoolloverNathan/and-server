@@ -1881,6 +1881,10 @@ file = "mods/appleskin.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/apugli.pw.toml"
 metafile = true
 
@@ -2087,6 +2091,10 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-teams-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
 metafile = true
 
 [[files]]
