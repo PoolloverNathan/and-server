@@ -5,6 +5,11 @@
 			"-depends": {
 				"create": "*"
 			}
+		},
+		"minecraft": {
+			"+breaks": {
+				"spectrum": "*"
+			}
 		}
 	}
 }
