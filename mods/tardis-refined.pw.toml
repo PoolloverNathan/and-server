@@ -1,0 +1,13 @@
+name = "TARDIS Refined"
+filename = "fabric-tardis_refined-mc1.20.1-v2.1.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nqVt6aES/versions/iXhlqDIR/fabric-tardis_refined-mc1.20.1-v2.1.6.jar"
+hash-format = "sha512"
+hash = "6274f9057af8637d73c17c8ea0086e61909d458193905b723b55e18e8eff3baa39bd1ae90014bcad1c94f964ec184aadb59023fbc604c0e8aa779ee3b26ab5e8"
+
+[update]
+[update.modrinth]
+mod-id = "nqVt6aES"
+version = "iXhlqDIR"

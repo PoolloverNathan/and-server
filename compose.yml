@@ -34,6 +34,9 @@ services:
         - action: sync
           path: kubejs/server_scripts
           target: /mnt/kubejs/server_scripts
+        - action: sync
+          path: config/openloader
+          target: /mnt/config/openloader
         - action: sync+restart
           path: kubejs/startup_scripts
           target: /mnt/kubejs/startup_scripts

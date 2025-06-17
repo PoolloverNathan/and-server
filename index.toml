@@ -1180,6 +1180,9 @@ file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/tags/ent
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/pack.mcmeta"
 
 [[files]]
+file = "config/openloader/data/Setmau's Origins 2.0.0.zip"
+
+[[files]]
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/origins/origin_layers/origin.json"
 
 [[files]]
@@ -2000,6 +2003,10 @@ file = "mods/create-fabric.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/createaddition.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/critters-and-companions.pw.toml"
 metafile = true
 
@@ -2044,6 +2051,10 @@ metafile = true
 
 [[files]]
 file = "mods/explosive-enhancement.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/exposure.pw.toml"
 metafile = true
 
 [[files]]
@@ -2296,6 +2307,10 @@ file = "mods/pockets.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/polymorph.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/pooltoy-origin-0.3.4.jar"
 
 [[files]]
@@ -2399,6 +2414,14 @@ file = "mods/switchy.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/sync-fabric-rereported.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tardis-refined.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/trinkets.pw.toml"
 metafile = true
 
@@ -2419,6 +2442,10 @@ file = "mods/vowels-1.0.0+1.20.1.jar"
 
 [[files]]
 file = "mods/weeping-angels.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/wiredredstone.pw.toml"
 metafile = true
 
 [[files]]
