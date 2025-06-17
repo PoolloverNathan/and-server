@@ -2287,6 +2287,10 @@ file = "mods/particle-rain.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/patched.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 metafile = true
 
@@ -2439,10 +2443,6 @@ metafile = true
 
 [[files]]
 file = "mods/vowels-1.0.0+1.20.1.jar"
-
-[[files]]
-file = "mods/weeping-angels.pw.toml"
-metafile = true
 
 [[files]]
 file = "mods/wiredredstone.pw.toml"

@@ -1,0 +1,13 @@
+name = "Patched"
+filename = "Patched-3.4.1+1.20.1-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IBlGrJtC/versions/4EhWMsyv/Patched-3.4.1%2B1.20.1-fabric.jar"
+hash-format = "sha512"
+hash = "13a12c5ad3faa0d97cbc62f62b8896e0a06adf401d9b559b14783d7984ad754a1d2c16e6202c6d7aefb8d5ad96f9a8e99c4aad2c53ae2f94161f1f5fc28fa7cf"
+
+[update]
+[update.modrinth]
+mod-id = "IBlGrJtC"
+version = "4EhWMsyv"
