@@ -1,0 +1,24 @@
+{
+    "name": "Flight",
+    "description": "You can now fly due to being a moth.",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:distance_from_coordinates",
+                "reference": "world_origin",
+                "ignore_x": true,
+                "ignore_z": true,
+                "shape": "cube",
+                "scale_reference_to_dimension": true,
+                "comparison": "<=",
+                "compare_to": 200
+            },
+            {
+                "inverted": true,
+                "type": "origins:in_rain"
+            }
+        ]
+    },
+    "type": "origins:creative_flight"
+}

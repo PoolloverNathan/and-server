@@ -1,0 +1,5 @@
+{
+    "name": "Heavyweight",
+    "description": "You are heavy metal, so you are unable to swim.",
+    "type": "origins:ignore_water"
+}

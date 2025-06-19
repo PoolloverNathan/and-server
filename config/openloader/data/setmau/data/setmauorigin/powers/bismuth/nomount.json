@@ -1,0 +1,13 @@
+{
+    "name": "No riding",
+    "description": "Too heavy.",
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:riding_action",
+        "action": {
+            "type": "origins:dismount"
+        }
+    }
+}

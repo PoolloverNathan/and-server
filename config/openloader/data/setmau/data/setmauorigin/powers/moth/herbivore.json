@@ -1,0 +1,11 @@
+{
+    "name": "Picky Eater",
+    "description": "You only eat certain foods, like flowers and seeds. ",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "setmauorigin:inedible"
+        }
+    }
+}

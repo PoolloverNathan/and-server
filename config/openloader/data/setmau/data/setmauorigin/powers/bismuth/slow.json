@@ -1,0 +1,5 @@
+{
+    "name": "Slow",
+    "description": "You are slow. You cannot sprint.",
+    "type": "origins:prevent_sprinting"
+}

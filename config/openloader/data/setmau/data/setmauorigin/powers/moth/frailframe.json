@@ -1,0 +1,53 @@
+{
+    "name": "Frail Frame",
+    "description": "Due to being so weak, your body is unable to withstand wearing heavy armour.",
+    "type": "origins:restrict_armor",
+    "head": {
+        "inverted": true,
+        "type": "origins:ingredient",
+        "ingredient": [
+            {
+                "item": "minecraft:leather_helmet"
+            },
+            {
+                "item": "minecraft:chainmail_helmet"
+            }
+        ]
+    },
+    "chest": {
+        "inverted": true,
+        "type": "origins:ingredient",
+        "ingredient": [
+            {
+                "item": "minecraft:leather_chestplate"
+            },
+            {
+                "item": "minecraft:chainmail_chestplate"
+            }
+        ]
+    },
+    "legs": {
+        "inverted": true,
+        "type": "origins:ingredient",
+        "ingredient": [
+            {
+                "item": "minecraft:leather_leggings"
+            },
+            {
+                "item": "minecraft:chainmail_leggings"
+            }
+        ]
+    },
+    "feet": {
+        "inverted": true,
+        "type": "origins:ingredient",
+        "ingredient": [
+            {
+                "item": "minecraft:leather_boots"
+            },
+            {
+                "item": "minecraft:chainmail_boots"
+            }
+        ]
+    }
+}

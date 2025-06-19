@@ -1,0 +1,9 @@
+{
+    "name": "No Digestive System",
+    "description": "You have no digestive system, and therefore, do not need to eat.",
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "set_base",
+        "value": 0
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "name": "No Elytra",
+    "description": "Too heavy.",
+    "hidden": true,
+    "type": "origins:prevent_elytra_flight"
+}

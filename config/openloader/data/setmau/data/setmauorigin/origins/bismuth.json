@@ -1,0 +1,21 @@
+{
+    "name": "Bismuth-Born",
+    "description": "Born in the firey pits of the nether, you are heavy and quite fire resistant.",
+    "powers": [
+        "setmauorigin:bismuth/fleshless",
+        "setmauorigin:bismuth/hardhands",
+        "setmauorigin:bismuth/heatimmunity",
+        "setmauorigin:bismuth/heavyweight",
+        "setmauorigin:bismuth/lowerjump",
+        "setmauorigin:bismuth/noelytra",
+        "setmauorigin:bismuth/nohunger",
+        "setmauorigin:bismuth/nomount",
+        "setmauorigin:bismuth/slow",
+        "origins:nether_spawn"
+    ],
+    "icon": {
+        "item": "etcetera:bismuth_ingot",
+        "amount": 1
+    },
+    "impact": 2
+}

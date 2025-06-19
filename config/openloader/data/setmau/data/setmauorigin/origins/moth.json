@@ -1,0 +1,21 @@
+{
+    "name": "Moth",
+    "description": "Sneaking in the shadows, you are but a simple creature. You simply wish to live a simple life.",
+    "powers": [
+        "setmauorigin:moth/flight",
+        "setmauorigin:moth/herbivore",
+        "setmauorigin:moth/weak",
+        "setmauorigin:moth/speedy",
+        "setmauorigin:moth/jumphigher",
+        "origins:fall_immunity",
+        "setmauorigin:moth/sleepcondition",
+        "setmauorigin:moth/frailframe",
+        "setmauorigin:moth/sizechange",
+        "setmauorigin:moth/custfood"
+    ],
+    "icon": {
+        "item": "minecraft:poppy",
+        "amount": 1
+    },
+    "impact": 2
+}

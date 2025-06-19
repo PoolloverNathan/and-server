@@ -1,0 +1,12 @@
+{
+    "pack": {
+        "name": "Setmau's Origins",
+        "id": "setmauorigin",
+        "pack_format": 15,
+        "version": "2.5.0",
+        "authors": [
+            "setmau"
+        ],
+        "description": "hi i made origin"
+    }
+}

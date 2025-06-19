@@ -1,0 +1,8 @@
+{
+    "hidden": true,
+    "type": "origins:modify_jump",
+    "modifier": {
+        "operation": "max_total",
+        "value": 1
+    }
+}

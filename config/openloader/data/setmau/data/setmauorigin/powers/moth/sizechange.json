@@ -1,0 +1,29 @@
+{
+    "hidden": true,
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:execute_command",
+        "command": "scale set 0.8 @s"
+    },
+    "execute_chosen_when_orb": true,
+    "entity_action_gained": {
+        "type": "origins:execute_command",
+        "command": "scale set 0.8 @s"
+    },
+    "entity_action_lost": {
+        "type": "origins:execute_command",
+        "command": "scale set 1 @s"
+    },
+    "entity_action_added": {
+        "type": "origins:execute_command",
+        "command": "scale set 0.8 @s"
+    },
+    "entity_action_removed": {
+        "type": "origins:execute_command",
+        "command": "scale set 1 @s"
+    },
+    "entity_action_respawned": {
+        "type": "origins:execute_command",
+        "command": "scale set 0.8 @s"
+    }
+}

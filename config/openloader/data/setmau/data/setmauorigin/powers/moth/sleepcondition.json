@@ -1,0 +1,13 @@
+{
+    "hidden": true,
+    "type": "origins:prevent_sleep",
+    "block_condition": {
+        "inverted": true,
+        "type": "origins:light_level",
+        "light_type": "block",
+        "comparison": "<=",
+        "compare_to": 2
+    },
+    "message": "It is too bright for you.",
+    "set_spawn_point": true
+}

@@ -1,0 +1,9 @@
+{
+    "name": "Bismuth Fists",
+    "description": "Your fists are made of Bismuth, so you naturally deal more damage",
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "operation": "add_base_early",
+        "value": 3
+    }
+}

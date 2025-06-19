@@ -1,0 +1,6 @@
+{
+    "name": "Fleshless",
+    "description": "You have no flesh, and are unable to be affected by potion effects.",
+    "type": "origins:effect_immunity",
+    "inverted": true
+}

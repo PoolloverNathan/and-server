@@ -1,0 +1,17 @@
+{
+    "name": "asdfdsafasdfasdf",
+    "description": "fcdcafdsafasdfasdf",
+    "hidden": true,
+    "type": "apugli:edible_item",
+    "item_condition": {
+        "type": "apoli:ingredient",
+        "ingredient": {
+            "tag": "setmauorigin:edible"
+        }
+    },
+    "food_component": {
+        "hunger": 3,
+        "saturation": 1
+    },
+    "use_action": "eat"
+}
