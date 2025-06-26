@@ -1180,9 +1180,6 @@ file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/serperior/tags/ent
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/pack.mcmeta"
 
 [[files]]
-file = "config/openloader/data/Setmau's Origins 2.0.0.zip"
-
-[[files]]
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/origins/origin_layers/origin.json"
 
 [[files]]
@@ -1643,6 +1640,90 @@ file = "config/openloader/data/poweredup/pack.mcmeta"
 
 [[files]]
 file = "config/openloader/data/poweredup/pack.png"
+
+[[files]]
+file = "config/openloader/data/setmau/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/origins/bismuth.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/origins/moth.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/powers/bismuth/fleshless.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/powers/bismuth/hardhands.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/powers/bismuth/heatimmunity.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/powers/bismuth/heavyweight.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/powers/bismuth/lowerjump.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/powers/bismuth/noelytra.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/powers/bismuth/nohunger.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/powers/bismuth/nomount.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/powers/bismuth/slow.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/powers/moth/custfood.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/powers/moth/flight.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/powers/moth/frailframe.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/powers/moth/herbivore.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/powers/moth/jumphigher.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/powers/moth/sizechange.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/powers/moth/sleepcondition.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/powers/moth/speedy.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/powers/moth/weak.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/recipes/mainmailboots.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/recipes/mainmailchestplate.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/recipes/mainmailhelmet.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/recipes/mainmailleggings.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/tags/items/edible.json"
+
+[[files]]
+file = "config/openloader/data/setmau/data/setmauorigin/tags/items/inedible.json"
+
+[[files]]
+file = "config/openloader/data/setmau/pack.mcmeta"
 
 [[files]]
 file = "config/openloader/data/snail/README.md"
@@ -2386,8 +2467,7 @@ file = "mods/sophisticated-storage-(unofficial-fabric-port).pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/stars.pw.toml"
-metafile = true
+file = "mods/stars-0.1.0-pre.5.jar"
 
 [[files]]
 file = "mods/stitch.pw.toml"
