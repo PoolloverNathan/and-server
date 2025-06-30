@@ -2455,6 +2455,10 @@ file = "mods/simple-voice-chat.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/sodium.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/sophisticated-backpacks-(unoffical-fabric-port).pw.toml"
 metafile = true
 
