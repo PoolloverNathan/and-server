@@ -2008,6 +2008,10 @@ file = "mods/block-o-morph.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/botania.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/botarium.pw.toml"
 metafile = true
 
