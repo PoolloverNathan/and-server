@@ -1,0 +1,15 @@
+name = "Librarian"
+filename = "librarian-3.0.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/VideoGameSmash12/Librarian/releases/download/v3.0.1/librarian-3.0.1.jar"
+hash-format = "sha256"
+hash = "70d5a7635f1c8bb495e5cf7666bcb89810da2f6326942057296b6898b5270f60"
+
+[update]
+[update.github]
+branch = "master"
+regex = "^.+(?<!-api|-dev|-dev-preshadow|-sources)\\.jar$"
+slug = "VideoGameSmash12/Librarian"
+tag = "v3.0.1"

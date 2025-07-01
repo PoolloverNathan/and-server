@@ -2190,6 +2190,10 @@ file = "mods/ftb-xmod-compat.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/function-macro-backport.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/fusion-connected-textures.pw.toml"
 metafile = true
 
@@ -2295,6 +2299,10 @@ file = "mods/lambdynamiclights.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/librarian.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 metafile = true
 
@@ -2339,6 +2347,10 @@ metafile = true
 
 [[files]]
 file = "mods/moreiotas.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/noisium.pw.toml"
 metafile = true
 
 [[files]]
@@ -2550,6 +2562,10 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/xxl-packets.pw.toml"
 metafile = true
 
 [[files]]
