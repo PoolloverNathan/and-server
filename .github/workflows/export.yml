@@ -11,8 +11,6 @@ jobs:
   hash:
     runs-on: ubuntu-24.04
     steps:
-      - run: sudo apt update
-      - run: sudo apt install golang
       - run: sudo GOBIN=/usr/local/bin go install github.com/packwiz/packwiz@latest
       - uses: actions/checkout@v4
       - run: bash -c "rm -rf $(cat .packwizignore | xargs)"
@@ -49,8 +47,6 @@ jobs:
           - modrinth
       fail-fast: false
     steps:
-      - run: sudo apt update
-      - run: sudo apt install golang
       - run: sudo GOBIN=/usr/local/bin go install github.com/packwiz/packwiz@latest
       - uses: actions/checkout@v4
       - run: mkdir export
