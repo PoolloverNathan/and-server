@@ -1,0 +1,13 @@
+name = "NBT Editor"
+filename = "nbteditor-2.0.3-d80ad62.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/5Osk0m1G/versions/YfhLkufU/nbteditor-2.0.3-d80ad62.jar"
+hash-format = "sha512"
+hash = "c1a91cb789d63c07a1221736f45b3a36eaef1aa0dabd548d6c37dffea9654a7323db4fe8bbcadf62e732eef9c06c12dcb080bd9cd224cff067c732b198fe0495"
+
+[update]
+[update.modrinth]
+mod-id = "5Osk0m1G"
+version = "YfhLkufU"

@@ -2349,6 +2349,10 @@ file = "mods/moreiotas.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/nbt-editor.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/noisium.pw.toml"
 metafile = true
 
