@@ -2206,10 +2206,6 @@ file = "mods/gravity-api-fork.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/hex-casting.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/hex-machina.pw.toml"
 metafile = true
 
@@ -2219,6 +2215,9 @@ file = "mods/hexal-fabric-1.20.1-0.3.0-3-skyevg-unofficial.jar"
 [[files]]
 file = "mods/hexcassettes.pw.toml"
 metafile = true
+
+[[files]]
+file = "mods/hexcasting-fabric-1.20.1-0.11.2-SpellCircleFork.jar"
 
 [[files]]
 file = "mods/hexcellular.pw.toml"
