@@ -1939,6 +1939,9 @@ file = "kubejs/server_scripts/recipes.js"
 file = "kubejs/startup_scripts/items.js"
 
 [[files]]
+file = "mods/Kilt-20.1.0+build.77a678-nightly.jar"
+
+[[files]]
 file = "mods/ad-astra.pw.toml"
 metafile = true
 
@@ -2042,14 +2045,6 @@ file = "mods/cb-compressed-blocks.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/cc-tweaked.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/cccbridge.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/chest-tracker.pw.toml"
 metafile = true
 
@@ -2074,15 +2069,14 @@ file = "mods/coolrain.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/copycats.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/craterlib.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/create.pw.toml"
+file = "mods/create-1.20.1-6.0.6.jar"
+
+[[files]]
+file = "mods/create-fabric.pw.toml"
 metafile = true
 
 [[files]]
@@ -2103,10 +2097,6 @@ metafile = true
 
 [[files]]
 file = "mods/dimensionaldoors.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/ducky-periphs.pw.toml"
 metafile = true
 
 [[files]]
@@ -2512,10 +2502,6 @@ metafile = true
 
 [[files]]
 file = "mods/sync-fabric-rereported.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/tardis-refined.pw.toml"
 metafile = true
 
 [[files]]
