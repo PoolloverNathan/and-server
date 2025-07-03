@@ -1,0 +1,21 @@
+{
+    "name": "Avali..?",
+    "description": "Once a normal avali, but... damaged after cybernetic implants from an untrustworthy source.",
+    "icon":{
+        "item": "minecraft:recovery_compass"
+    },
+    "impact": 3,
+    "order": 0,
+    "powers":[
+        "kubejs:avali/no_eyes",
+        "kubejs:avali/no_ears",
+        "kubejs:avali/no_arms",
+        "kubejs:avali/no_mouth",
+        "avali:smaller",
+        "avali:heat_bar",
+        "avali:holy_shit_i_love_tunes",
+        "avali:night_vision",
+        "avali:glide"
+    ],
+    "unchoosable": true  
+}

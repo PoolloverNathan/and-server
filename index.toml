@@ -1927,6 +1927,12 @@ file = "config/vowels-packwiz.json"
 file = "icon.png"
 
 [[files]]
+file = "kubejs/data/kubejs/origins/avali.json"
+
+[[files]]
+file = "kubejs/data/origins/origin_layers/origin.json"
+
+[[files]]
 file = "kubejs/server_scripts/recipes.js"
 
 [[files]]
@@ -2048,10 +2054,6 @@ file = "mods/chest-tracker.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/chipped-x-create-fabric.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/chipped.pw.toml"
 metafile = true
 
@@ -2080,15 +2082,7 @@ file = "mods/craterlib.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/create-enchantment-industry-fabric.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/create-fabric.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/createaddition.pw.toml"
+file = "mods/create.pw.toml"
 metafile = true
 
 [[files]]
@@ -2117,10 +2111,6 @@ metafile = true
 
 [[files]]
 file = "mods/eggolib.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/emi-create-schematics.pw.toml"
 metafile = true
 
 [[files]]
@@ -2287,10 +2277,6 @@ metafile = true
 
 [[files]]
 file = "mods/krypton.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/kubejs-create-for-fabric-1-20-1.pw.toml"
 metafile = true
 
 [[files]]
