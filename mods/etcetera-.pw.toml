@@ -1,13 +1,13 @@
 name = "Etcetera"
-filename = "etcetera-1.20.1-1.1.2-fabric.jar"
+filename = "Etcetera-1.20.1-1.1.3-Forge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/TaRVOwJr/versions/42Dm5geR/Etcetera-1.20.1-1.1.2-Fabric.jar"
+url = "https://cdn.modrinth.com/data/TaRVOwJr/versions/uua8xPy8/Etcetera-1.20.1-1.1.3-Forge.jar"
 hash-format = "sha512"
-hash = "01df09104d82f086ef8200253ca53c2571019960c9277b4b236574ba12a84b01324e7094b98c2eb3114e087e1f433cc6a922864ae1fe6ff58f64c58df1ebcf61"
+hash = "12441dcc48f487a5f428dc1799548f46e391bd316358dfab1628ea2020061ee51676dc0f5ebe672980534505734e0cf1a817febf18ed73226b6096b15fb22265"
 
 [update]
 [update.modrinth]
 mod-id = "TaRVOwJr"
-version = "42Dm5geR"
+version = "uua8xPy8"

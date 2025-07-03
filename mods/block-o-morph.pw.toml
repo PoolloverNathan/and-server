@@ -1,13 +1,13 @@
 name = "Block'oMorph"
-filename = "blockomorph-1.20.1-fabric-1.0.7.jar"
+filename = "blockomorph-1.20.1-forge-1.0.7.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/DDnWSBuT/versions/P0XhQgq9/blockomorph-1.20.1-fabric-1.0.7.jar"
+url = "https://cdn.modrinth.com/data/DDnWSBuT/versions/XihBr8Uw/blockomorph-1.20.1-forge-1.0.7.jar"
 hash-format = "sha512"
-hash = "202e50cffa5565d4fc9e776fb579d76b4e951c5724de793612f0d3bcad4ba6d14cbc729f39c0d8b73580996cda7507eb22f1184a815ba8c920b368aa7ff81d5e"
+hash = "990f7d8a26f868c752972373df6ac277b5789111e9a03007715cad4fb716e9dd286c74b9856cb0e662f04e4f7a3740aba86bd86f04b4957d98bc1c1a76d47cea"
 
 [update]
 [update.modrinth]
 mod-id = "DDnWSBuT"
-version = "P0XhQgq9"
+version = "XihBr8Uw"

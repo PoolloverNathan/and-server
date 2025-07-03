@@ -1,13 +1,13 @@
 name = "Apugli"
-filename = "Apugli-2.10.4+1.20.1-fabric.jar"
+filename = "Apugli-2.10.4+1.20.1-forge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/1qeWG44Y/versions/fNhLN2Tm/Apugli-2.10.4%2B1.20.1-fabric.jar"
+url = "https://cdn.modrinth.com/data/1qeWG44Y/versions/INHgsubH/Apugli-2.10.4%2B1.20.1-forge.jar"
 hash-format = "sha512"
-hash = "7a690fe1c9759f3feedd16f4c8625eb11d54686042b19bb001a0e8be70d0ca6063a9a7f5f68c440e44155330b65684ce782bd7029ead0535d2df1ba2ddfefe66"
+hash = "c811f018126f538f8bcc884223a8916725a022ab55ef7d9c8a693e30c1fac452bf7481ef08f0656a9aa3151ef1d66e23ed9b54c81e11be54c5b4f189fe4ee4a6"
 
 [update]
 [update.modrinth]
 mod-id = "1qeWG44Y"
-version = "fNhLN2Tm"
+version = "INHgsubH"

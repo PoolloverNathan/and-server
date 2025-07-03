@@ -1,13 +1,13 @@
 name = "Roughly Enough Items (REI)"
-filename = "RoughlyEnoughItems-12.1.785-fabric.jar"
+filename = "RoughlyEnoughItems-12.1.785-forge.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/nfn13YXA/versions/nYcMSS03/RoughlyEnoughItems-12.1.785-fabric.jar"
+url = "https://cdn.modrinth.com/data/nfn13YXA/versions/IoS2AjPk/RoughlyEnoughItems-12.1.785-forge.jar"
 hash-format = "sha512"
-hash = "1eaf6de6ba640407599767d150aa0c7dd71ad071915bf34d9a06fa8a0a3825882cd0fa966d3f225912f5fb456be38fe58021db9df988f65d667bea102a861a15"
+hash = "c229232ce96368e16631ac0557caa2b14f3ee2c5d587241da7889b142aecb61eb68dd400f60f368951ffc741f2d375732daf2bf5a46ced239a6e4bb692066110"
 
 [update]
 [update.modrinth]
 mod-id = "nfn13YXA"
-version = "nYcMSS03"
+version = "IoS2AjPk"

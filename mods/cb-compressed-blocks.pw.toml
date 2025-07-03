@@ -1,13 +1,13 @@
 name = "CB: Compressed Blocks"
-filename = "compressedblocks-fabric-1.20.2-1.5.0.jar"
+filename = "compressedblocks-neoforge-1.20.2-1.5.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/IQRVlbit/versions/vo9P8ZOv/compressedblocks-fabric-1.20.2-1.5.0.jar"
+url = "https://cdn.modrinth.com/data/IQRVlbit/versions/9ZkEugK9/compressedblocks-neoforge-1.20.2-1.5.0.jar"
 hash-format = "sha512"
-hash = "9a520d920dad64b60480d470c761a99ced0e4f67e0606b945df301cd3fbde93bd1d0ae5b9be0b049a7265cde738aee96f7599676fd49d0912a76afaeaffd25e3"
+hash = "0727fb98c3b583a63ce02b7b0d12991a125c46168e13a0c54dc8dcd911093a7bd23ad71212497ac9a4aa567f6f6f10dc2a171b5d9fc49f973f4d5cac3cf98f56"
 
 [update]
 [update.modrinth]
 mod-id = "IQRVlbit"
-version = "vo9P8ZOv"
+version = "9ZkEugK9"

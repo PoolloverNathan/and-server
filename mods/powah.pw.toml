@@ -3,11 +3,11 @@ filename = "Powah-5.0.10.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/KZO4S4DO/versions/EWDexyqc/Powah-5.0.10.jar"
+url = "https://cdn.modrinth.com/data/KZO4S4DO/versions/vjK6oB6P/Powah-5.0.10.jar"
 hash-format = "sha512"
-hash = "844d3a5c7502a150046531f9b2bb4327bbb02f8479db00542fc5933f5ae5450ecd45bc8779cac39c430233db6e47d7534cca373c8ea6c9d3349b01922694cbc6"
+hash = "6ad508e294f4293be8b9c76b7f011f34867a68adae28afd5a4800661913ae63251581399ca47bfb9a6354c8f3894f84cba78bf89ead75bcf5b44ffea9252e1f6"
 
 [update]
 [update.modrinth]
 mod-id = "KZO4S4DO"
-version = "EWDexyqc"
+version = "vjK6oB6P"

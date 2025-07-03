@@ -1,13 +1,13 @@
 name = "Automobility"
-filename = "automobility-0.4.2+1.20.1-fabric.jar"
+filename = "automobility-0.4.2+1.20.1-forge.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/rqIsPf9F/versions/G97BY8OB/automobility-0.4.2%2B1.20.1-fabric.jar"
+url = "https://cdn.modrinth.com/data/rqIsPf9F/versions/46g3IiWw/automobility-0.4.2%2B1.20.1-forge.jar"
 hash-format = "sha512"
-hash = "359883a402fabc987608186f236a552deb7c6bb7abe2e75c166717a6cd97278050e16f6c88d58b1d6c4b1d3d5fc40f344ae27f1bfde0f3fcddfc94704230fdd8"
+hash = "96aec122a35e12891054f246435f0ff27b5e759942545e25839bb6da54e7b3544c81297bbe77d14692b0a31af9d5ab70d7c13de7e92e288b15abf9c7e8832ef4"
 
 [update]
 [update.modrinth]
 mod-id = "rqIsPf9F"
-version = "G97BY8OB"
+version = "46g3IiWw"

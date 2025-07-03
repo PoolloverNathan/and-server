@@ -1,16 +1,16 @@
 name = "Armor Points ++"
-filename = "armorpointspp-fabric-1.20-3.1.2.jar"
+filename = "armorpointspp-forge-1.20-3.1.1.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/xvAim1vw/versions/NJD8sOJg/armorpointspp-fabric-1.20-3.1.2.jar"
+url = "https://cdn.modrinth.com/data/xvAim1vw/versions/Uf0tqswT/armorpointspp-forge-1.20-3.1.1.jar"
 hash-format = "sha512"
-hash = "1f2ac484dc5f29d1d8372edef52314eaac71d2fe6798c355aac5d1232d7375197fdbb587ac46b97b76df7d39b2c178c329b183f560a68d1ff881b0d0f9331d91"
+hash = "f878c66eea113f67fd2d9ae03038a33d679c60c554cc54c7fbb7a12c562a4ae632db72768f6fe22ce85d60c8e5e2847a44d0e9f938c5d2f99592b2e8d6e76164"
 
 [update]
 [update.modrinth]
 mod-id = "xvAim1vw"
-version = "NJD8sOJg"
+version = "Uf0tqswT"
 
 [option]
 optional = true
