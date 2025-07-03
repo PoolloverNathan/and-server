@@ -2246,6 +2246,10 @@ file = "mods/hexical-2.0.0.jar"
 file = "mods/hextweaks-5.3.3+fixed.jar"
 
 [[files]]
+file = "mods/hextweaks.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/immersiveportals.pw.toml"
 metafile = true
 
