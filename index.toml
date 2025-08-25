@@ -1933,6 +1933,9 @@ file = "icon.png"
 file = "kubejs/assets/lang/en_us.json"
 
 [[files]]
+file = "kubejs/data/c/tags/items/tools.json"
+
+[[files]]
 file = "kubejs/server_scripts/recipes.js"
 
 [[files]]
@@ -1964,6 +1967,10 @@ metafile = true
 
 [[files]]
 file = "mods/animal_feeding_trough.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/anvil_heads.pw.toml"
 metafile = true
 
 [[files]]
@@ -2014,7 +2021,19 @@ file = "mods/balm.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/better-advancements.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/better-stats.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/block-o-morph.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/bobby.pw.toml"
 metafile = true
 
 [[files]]
@@ -2030,11 +2049,27 @@ file = "mods/bountiful.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/caduceus.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cardinal-components-api.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/carpet-extra.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/carpet-fixes.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/carpet.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/carry-on.pw.toml"
 metafile = true
 
 [[files]]
@@ -2074,6 +2109,14 @@ file = "mods/chunky.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/chunkyborder.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cicada.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 metafile = true
 
@@ -2082,11 +2125,26 @@ file = "mods/complex-hex.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/complexhex-fabric-1.20.1-0.1.5-beta.jar"
+
+[[files]]
+file = "mods/controlling.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/coolrain.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/copycats.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/coroutil.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/crafttweaker.pw.toml"
 metafile = true
 
 [[files]]
@@ -2118,6 +2176,10 @@ file = "mods/deep-mob-learning-refabricated.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/defaulted-hotkeys.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/dimensional-tears.pw.toml"
 metafile = true
 
@@ -2134,7 +2196,18 @@ file = "mods/ducky-periphs.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/easy-shulker-boxes.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/efhexs-1.0.0.jar"
+
+[[files]]
 file = "mods/eggolib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/embeddedcomputer.pw.toml"
 metafile = true
 
 [[files]]
@@ -2149,6 +2222,9 @@ metafile = true
 file = "mods/ensculked-0.1.4-pre.1+1.20.1+eazs.jar"
 
 [[files]]
+file = "mods/ephemera-fabric-1.20.1-0.3.0.jar"
+
+[[files]]
 file = "mods/etcetera-.pw.toml"
 metafile = true
 
@@ -2161,6 +2237,10 @@ file = "mods/exposure.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/extreme_sound_muffler.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 metafile = true
 
@@ -2169,11 +2249,19 @@ file = "mods/fabric-language-kotlin.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/fabrication.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight-refabricated.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/fastback.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/faux-custom-entity-data.pw.toml"
 metafile = true
 
 [[files]]
@@ -2224,6 +2312,10 @@ file = "mods/fusion-connected-textures.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/fzzy-config.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 metafile = true
 
@@ -2232,18 +2324,23 @@ file = "mods/gravity-api-fork.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/helpfromhexxy-fabric-1.20.1-0.1.4.jar"
+
+[[files]]
 file = "mods/hex-machina.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/hexal-fabric-1.20.1-0.3.0-3-skyevg-unofficial.jar"
+file = "mods/hexal-fabric-1.20.1-0.3.0-3-skyevg-unofficial-teleport-experiment.jar"
 
 [[files]]
-file = "mods/hexcassettes.pw.toml"
-metafile = true
+file = "mods/hexcassettes-2.0.0.jar"
 
 [[files]]
-file = "mods/hexcasting-fabric-1.20.1-0.11.2-SpellCircleFork.jar"
+file = "mods/hexcasting-fabric-1.20.1-0.11.2.3-SpellCircle.jar"
+
+[[files]]
+file = "mods/hexcellular-1.1.0.jar"
 
 [[files]]
 file = "mods/hexcellular.pw.toml"
@@ -2261,7 +2358,47 @@ metafile = true
 file = "mods/hexical-2.0.0.jar"
 
 [[files]]
+file = "mods/hexodus.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/hexpats.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/hexportation.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/hexpose.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/hexstruction.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/hextended-staves.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/hextweaks-5.3.3+fixed.jar"
+
+[[files]]
+file = "mods/hexvr.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/hierophantics.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/immersive-optimization.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/immersive-paintings.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/immersiveportals.pw.toml"
@@ -2296,6 +2433,14 @@ file = "mods/ioticblocks.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/iris.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/item-obliterator.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/jade-addons-fabric.pw.toml"
 metafile = true
 
@@ -2304,7 +2449,19 @@ file = "mods/jade.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/jline4mcdsrv.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/just-zoom.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/kambrik.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/konkrete.pw.toml"
 metafile = true
 
 [[files]]
@@ -2332,6 +2489,10 @@ file = "mods/lithium.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/lmft.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/log-begone.pw.toml"
 metafile = true
 
@@ -2349,6 +2510,14 @@ metafile = true
 
 [[files]]
 file = "mods/mindweaver-0.1-1.20.1-fabric (1).jar"
+
+[[files]]
+file = "mods/mmmmmmmmmmmm.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/moderate-loading-screen.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/modernfix.pw.toml"
@@ -2371,7 +2540,18 @@ file = "mods/more-crafting-tables-lieonlion.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/moreiotas-fabric-1.20.1-0.1.0-5.jar"
+
+[[files]]
 file = "mods/moreiotas.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/moves-the-mind.pw.toml"
 metafile = true
 
 [[files]]
@@ -2379,7 +2559,31 @@ file = "mods/nbt-editor.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/necronomicon.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/neruina.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/noisium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/notes.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/observable.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/offlinecommands.pw.toml"
 metafile = true
 
 [[files]]
@@ -2409,6 +2613,10 @@ file = "mods/paragraphs.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/particle-core.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/particle-rain.pw.toml"
 metafile = true
 
@@ -2426,6 +2634,10 @@ metafile = true
 
 [[files]]
 file = "mods/pehkui.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/phlexiful.pw.toml"
 metafile = true
 
 [[files]]
@@ -2452,7 +2664,15 @@ file = "mods/probejs.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/puzzles-lib.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/quad.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/raknetify.pw.toml"
 metafile = true
 
 [[files]]
@@ -2465,6 +2685,10 @@ metafile = true
 
 [[files]]
 file = "mods/rei.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/resource-pack-overrides.pw.toml"
 metafile = true
 
 [[files]]
@@ -2484,6 +2708,9 @@ file = "mods/satin-api.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/scryglass-1.0.0.jar"
+
+[[files]]
 file = "mods/sdlink.pw.toml"
 metafile = true
 
@@ -2492,7 +2719,23 @@ file = "mods/seamless.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/searchables.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/servercore.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/servertick.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/simple-voice-chat.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/slate-works.pw.toml"
 metafile = true
 
 [[files]]
@@ -2512,6 +2755,14 @@ file = "mods/sophisticated-storage-(unofficial-fabric-port).pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/spark.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/stackdeobf.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/stars-0.1.0-pre.5.jar"
 
 [[files]]
@@ -2520,6 +2771,14 @@ metafile = true
 
 [[files]]
 file = "mods/storagent.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/styled-chat.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/styled-nicknames.pw.toml"
 metafile = true
 
 [[files]]
@@ -2555,11 +2814,31 @@ file = "mods/tardis-refined.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/tcdcommons.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/too-many-binds.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tooltipfix.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/trinkets.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/trinkhide.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/truly-modular-arsenal.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tt20.pw.toml"
 metafile = true
 
 [[files]]
@@ -2571,7 +2850,19 @@ file = "mods/vanish.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/villager-in-a-bucket.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/vivecraft.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/vowels-1.0.0+1.20.1.jar"
+
+[[files]]
+file = "mods/what-are-they-up-to.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/wiredredstone.pw.toml"

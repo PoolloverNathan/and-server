@@ -45,3 +45,6 @@ flavors = ["rei"]
 
 [metafile.jade-addons-fabric]
 flavors = ["jade_on"]
+
+[metafile.fzzy-config]
+flavors = ["particle-core_on"]
