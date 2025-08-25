@@ -7,6 +7,9 @@ file = "compose.yml"
 file = "config/fabric_loader_dependencies.json"
 
 [[files]]
+file = "config/immersive_portals.json"
+
+[[files]]
 file = "config/inventorio_shared.json"
 
 [[files]]
@@ -1925,6 +1928,9 @@ file = "config/vowels-packwiz.json"
 
 [[files]]
 file = "icon.png"
+
+[[files]]
+file = "kubejs/assets/lang/en_us.json"
 
 [[files]]
 file = "kubejs/server_scripts/recipes.js"
