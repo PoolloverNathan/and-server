@@ -2064,6 +2064,10 @@ file = "mods/chunk-loaders.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/chunky.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 metafile = true
 
@@ -2113,6 +2117,10 @@ metafile = true
 
 [[files]]
 file = "mods/dimensionaldoors.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
 metafile = true
 
 [[files]]
