@@ -1,0 +1,55 @@
+{
+    "name": "Repair (Wool)",
+    "description": "You can repair your Body using Wool",
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "minecraft:wool"
+            }
+        }
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:health",
+            "comparison": "<",
+            "compare_to": 20
+        },
+        "if_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:heal",
+                    "amount": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "clear @s #minecraft:wool 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:block.wool.place player @s ~ ~ ~ 1 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle minecraft:item minecraft:white_wool ~ ~1.5 ~ 0.2 0.2 0.2 0.05 10"
+                }
+            ]
+        },
+        "else_action": {
+            "type": "origins:execute_command",
+            "command": "title @s actionbar {\"text\":\"You are already fully healed!\",\"color\":\"red\"}"
+        }
+    },
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.use"
+    }
+}

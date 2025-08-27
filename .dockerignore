@@ -2,5 +2,6 @@
 .github/
 Dockerfile
 dedicated-server/
+dev/
 flake.*
 result*

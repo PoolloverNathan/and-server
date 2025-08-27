@@ -1,0 +1,20 @@
+{
+    "name": "Eizel",
+    "description": "Short, nimble and weak, also an elf. What they lack in strength they make up for in mobility, cleaning, and other household chores. This pairs well with their pension to stay indoors, often writing or chatting to whoever is in the house.",
+    "powers": [
+		"eizel:bag",
+		"eizel:body",
+		"eizel:dash",
+		"eizel:diet",
+		"eizel:butterfingers",
+		"eizel:loveable",
+		"eizel:petite",
+		"eizel:pyrophobia",
+		"eizel:skinny"
+    ],
+    "icon": {
+        "item": "minecraft:cookie"
+    },
+    "order": 0,
+    "impact": 2
+}

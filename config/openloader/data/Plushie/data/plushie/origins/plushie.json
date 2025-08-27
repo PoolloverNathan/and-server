@@ -1,0 +1,20 @@
+{
+    "name": "Plushie",
+    "description": "You are a Sentient Plushie, you do what Plushies do",
+    "powers": [
+        "plushie:disable_hunger",
+        "plushie:no_food",
+        "plushie:heal_with_wool",
+        "plushie:heal_with_string",
+        "plushie:vulnerable_body",
+        "plushie:extremely_flammable",
+        "plushie:soggy",
+        "plushie:no_fall_dmg",
+        "plushie:no_air"
+    ],
+    "icon": {
+        "item": "minecraft:brown_wool"
+    },
+    "order": 20,
+    "impact": 2
+}

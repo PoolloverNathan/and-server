@@ -1,0 +1,34 @@
+{
+	"name": "Vegetarian Diet",
+	"description": "Being an elf, your stomach finds it hard to digest meat so you stick to a healthy diet of fruits and vegetables (and maybe some cookies and cake afterwards).",
+	"type": "origins:prevent_item_use",
+	"item_condition": {
+		"type": "origins:and",
+		"conditions": [
+			{
+				"type": "origins:or",
+				"conditions": [
+					{
+						"type": "origins:ingredient",
+						"ingredient": {
+						"tag": "origins:meat"
+						}
+					},
+					{
+						"type": "origins:meat"
+					}
+				]
+			},
+			{
+				"type": "origins:food"
+			},
+			{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"tag": "origins:ignore_diet"
+				},
+				"inverted": true
+			}
+		]
+	}
+}

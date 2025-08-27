@@ -1,0 +1,25 @@
+{
+    "name": "Flammable Fluff",
+    "description": "As a plushie, you take 75% more damage from all fire sources.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:fire"
+            },
+            {
+                "type": "origins:name",
+                "name": "on_fire"
+            },
+            {
+                "type": "origins:name",
+                "name": "lava"
+            }
+        ]
+    },
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 0.75
+    }
+}
