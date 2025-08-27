@@ -3,14 +3,6 @@
     "description": "You are a heavy and bulky machine, movement isn't really your thing. Luckily you can step higher.",
     "type": "origins:multiple",
 
-    "no-jump": {
-        "type": "origins:modify_jump",
-        "modifier": {
-            "operation": "set_total",
-            "value": 0
-        }
-    },
-
     "step-height": {
         "type": "apugli:step_height",
         "lower_height": 1.0
