@@ -1,0 +1,13 @@
+{
+	"name": "Green Thumb",
+	"description": "You have a natural fortune when harvesting crops and recieve double the amount.",
+
+	"type": "origins:replace_loot_table",
+	"replace": {
+		"minecraft:blocks/.*": "thebotanist:double_drops"
+	},
+	"block_condition": {
+		"type": "origins:in_tag",
+		"tag": "minecraft:crops"
+	}
+}

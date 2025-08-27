@@ -1,0 +1,77 @@
+{
+	"hidden": true,
+
+	"type": "origins:multiple",
+	"on_respawn": {
+		"type": "origins:action_on_callback",
+		"entity_action_respawned": {
+			"type": "origins:change_resource",
+			"resource": "thebotanist:dimension_backend_value",
+			"change": -1
+		},
+		"execute_chosen_when_orb": true
+	},
+	"prevent_mobs": {
+		"name": "in Garden",
+		"hidden": true,
+
+		"type": "origins:prevent_item_use",
+		"item_condition": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:egg"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:cod_bucket"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:salmon_bucket"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:tropical_fish_bucket"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:pufferfish_bucket"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:axolotl_bucket"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:tadpole_bucket"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:frogspawn"
+					}
+				}
+			]
+		},
+		"condition": {
+			"type": "origins:dimension",
+			"dimension": "thebotanist:garden"
+		}
+	}
+}
