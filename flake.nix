@@ -144,6 +144,7 @@
           pkgs.git-branchless
           pkgs.nix
           pkgs.packwiz
+          ./dev
         ];
       };
     };
