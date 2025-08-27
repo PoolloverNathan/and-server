@@ -1,0 +1,16 @@
+{
+    "name": "Waterproof",
+    "description": "As a plushie, you don't need to breathe and can survive underwater indefinitely.",
+    "condition": {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">",
+        "compare_to": 0
+    },
+    "type": "origins:action_over_time",
+    "interval": 10,
+    "entity_action": {
+        "type": "origins:gain_air",
+        "value": 30
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Water Absorption",
+    "description": "Your fluffy body absorbs water, making you progressively slower while submerged.",
+    "condition": {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">",
+        "compare_to": 0
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 3,
+    "duration_per_stack": 100,
+    "tick_rate": 40,
+    "effect": {
+        "effect": "minecraft:slowness",
+        "duration": 200,
+        "amplifier": 1,
+        "is_ambient": true,
+        "show_particles": false,
+        "show_icon": true
+    }
+}
