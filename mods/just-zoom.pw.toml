@@ -1,0 +1,18 @@
+name = "Just Zoom"
+filename = "justzoom_fabric_2.1.0_MC_1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/iAiqcykM/versions/9RoWFL8K/justzoom_fabric_2.1.0_MC_1.20.1.jar"
+hash-format = "sha1"
+hash = "538a90dd2eced7704a900d53b9cbc5cf5cea6b64"
+
+[update]
+[update.modrinth]
+mod-id = "iAiqcykM"
+version = "9RoWFL8K"
+
+[option]
+optional = true
+default = true
+description = "lets you zoom without a spyglass"

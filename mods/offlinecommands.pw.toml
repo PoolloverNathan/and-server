@@ -1,0 +1,13 @@
+name = "OfflineCommands"
+filename = "OfflineCommands-1.0.2+1.20.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/rkgXkDl7/versions/BLUue7Jp/OfflineCommands-1.0.2%2B1.20.1.jar"
+hash-format = "sha1"
+hash = "f534926f984ff8406da3393abbd25faa7e94b9cc"
+
+[update]
+[update.modrinth]
+mod-id = "rkgXkDl7"
+version = "BLUue7Jp"

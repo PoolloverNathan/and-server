@@ -1,0 +1,13 @@
+name = "Anvil Heads"
+filename = "anvil-heads-1.0-1.20.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/lX16Rp1p/versions/p6oDZbRg/anvil-heads-1.0-1.20.1.jar"
+hash-format = "sha1"
+hash = "5b425ae6807622fbae1424fe4c26bdb8f1e1fc2c"
+
+[update]
+[update.modrinth]
+mod-id = "lX16Rp1p"
+version = "p6oDZbRg"

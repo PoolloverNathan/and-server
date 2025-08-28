@@ -4,6 +4,7 @@
 .gitmodules
 Dockerfile
 dedicated-server/
+dev/
 docker-bake.hcl
 flake.*
 result*

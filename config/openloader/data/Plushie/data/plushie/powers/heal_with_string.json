@@ -1,0 +1,55 @@
+{
+    "name": "Repair (String)",
+    "description": "You can repair your Body using String too!",
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:string"
+            }
+        }
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:health",
+            "comparison": "<",
+            "compare_to": 20
+        },
+        "if_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:heal",
+                    "amount": 2
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "clear @s minecraft:string 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:entity.leash_knot.place player @s ~ ~ ~ 1 1"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle minecraft:item minecraft:string ~ ~1.5 ~ 0.2 0.2 0.2 0.05 10"
+                }
+            ]
+        },
+        "else_action": {
+            "type": "origins:execute_command",
+            "command": "title @s actionbar {\"text\":\"You are already fully healed!\",\"color\":\"red\"}"
+        }
+    },
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": false
+    },
+    "key": {
+        "key": "key.use"
+    }
+}

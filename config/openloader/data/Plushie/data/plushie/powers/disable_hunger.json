@@ -1,0 +1,40 @@
+{
+    "name": "No Stomach",
+    "description": "Plushies have no stomach, so they cant eat",
+    "type": "origins:multiple",
+    "no_hunger_bar": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 0,
+            "name": "No hunger bar"
+        },
+        "update_health": true
+    },
+    "always_full": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:feed",
+            "food": 20,
+            "saturation": 20
+        }
+    },
+    "no_exhaust": {
+        "type": "origins:exhaust",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -1
+        }
+    },
+    "no_hunger_effect": {
+        "type": "origins:effect_immunity",
+        "effects": [
+            "minecraft:hunger"
+        ]
+    },
+    "disable_natural_regen": {
+        "type": "origins:disable_regen"
+    }
+}

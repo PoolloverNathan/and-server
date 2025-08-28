@@ -1,0 +1,12 @@
+{
+	"name":"Highly Flammable",
+	"description":"Because of your plant based diet, your skin is slightly more flammable causing you take more damage when set alight.",
+	"type": "origins:modify_damage_taken",
+	"damage_condition": {
+		"type": "origins:fire"
+		},
+	"modifier": {
+		"operation": "multiply_base_multiplicative",
+		"value": 0.5
+	}
+}

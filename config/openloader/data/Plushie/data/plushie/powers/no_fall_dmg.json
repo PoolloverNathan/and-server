@@ -1,0 +1,9 @@
+{
+    "name": "Soft Landing",
+    "description": "As a plushie, you're immune to fall damage.",
+    "type": "origins:invulnerability",
+    "damage_condition": {
+        "type": "origins:name",
+        "name": "fall"
+    }
+}

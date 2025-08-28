@@ -1,0 +1,9 @@
+{
+    "name": "Cant Eat",
+    "description": "You have no hunger, so how would you eat anything?",
+    "hidden": true,
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:food"
+    }
+}
