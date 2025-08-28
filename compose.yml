@@ -18,6 +18,7 @@ services:
       - tmux:/tmux
     ports:
       - 39781:25565
+      - 39781:25565/udp
       - 42279:42279/udp
     deploy:
       resources:

@@ -2249,10 +2249,6 @@ file = "mods/fabric-language-kotlin.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/fabrication.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/farmers-delight-refabricated.pw.toml"
 metafile = true
 
