@@ -586,6 +586,276 @@ file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/data/ori
 file = "config/openloader/data/Charizardtaur-Origin-2.6.1-1.20.1-1.20.2/pack.mcmeta"
 
 [[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/assets/create_automaton/textures/gui/stress_bars.png"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/assets/create_automaton/textures/item/potato.png"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/functions/clock/display.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/functions/clock/load.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/functions/clock/toggle-format.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/functions/item-count/add-stress.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/functions/item-count/item-count-setup.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/functions/reach.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/functions/repair-circle.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/functions/store_stress.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/functions/stress-setup.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/item_modifiers/smelt.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origin_layers/andesite.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origin_layers/brass.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origin_layers/copper.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origin_layers/extras.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/andesite/casing.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/andesite/crank.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/andesite/drill.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/andesite/ejector.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/andesite/fan.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/andesite/mixer.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/andesite/press.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/andesite/toolbox.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/automaton.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/brass/arm.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/brass/blaze.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/brass/cannon.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/brass/casing.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/brass/crafter.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/brass/display-link.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/brass/speed-controller.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/copper/casing.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/copper/engine.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/copper/helmet.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/copper/spout.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/copper/tank.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/copper/valve.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/copper/whistle.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/extras/casing.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/extras/clock.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/extras/clutch.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/extras/cover.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/extras/flywheel.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/extras/glue.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/extras/seat.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/extras/stressometer.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/origins/extras/vault.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/andesite/crank/crank.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/andesite/drill/drill.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/andesite/ejector/launch.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/andesite/ejector/soft-landing.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/andesite/fan/hover.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/andesite/fan/speed.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/andesite/press/damage.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/andesite/press/press.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/andesite/press/press2.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/andesite/toolbox/toolbox.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/brass/arm/reach.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/brass/blaze/smelt.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/brass/cannon/shoot.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/brass/crafting/crafter.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/brass/display/info.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/brass/speed-controller/speed.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/copper/engine/destress.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/copper/helmet/dive.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/copper/tank/cobblestone.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/copper/tank/intake.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/copper/tank/pour.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/copper/valve/depressure.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/copper/whistle/call.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/extras/clock.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/extras/clutch.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/extras/flywheel.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/extras/glue.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/extras/seat.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/extras/stressometer.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/extras/train-casing.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/extras/vault.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/fuel.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/iron-clad.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/machine-like.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/machinery.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/self-repair.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/stress.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/tags/items/tools.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/minecraft/tags/functions/load.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/pack.png"
+
+[[files]]
 file = "config/openloader/data/Dexterous_Elf_1.0.1/data/dexterous_elf/origins/dexterous_elf.json"
 
 [[files]]
@@ -635,6 +905,45 @@ file = "config/openloader/data/Dexterous_Elf_1.0.1/data/origins/origin_layers/or
 
 [[files]]
 file = "config/openloader/data/Dexterous_Elf_1.0.1/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Eizel Origin/data/eizel/origins/eizel.json"
+
+[[files]]
+file = "config/openloader/data/Eizel Origin/data/eizel/powers/bag.json"
+
+[[files]]
+file = "config/openloader/data/Eizel Origin/data/eizel/powers/body.json"
+
+[[files]]
+file = "config/openloader/data/Eizel Origin/data/eizel/powers/butterfingers.json"
+
+[[files]]
+file = "config/openloader/data/Eizel Origin/data/eizel/powers/dash.json"
+
+[[files]]
+file = "config/openloader/data/Eizel Origin/data/eizel/powers/diet.json"
+
+[[files]]
+file = "config/openloader/data/Eizel Origin/data/eizel/powers/petite.json"
+
+[[files]]
+file = "config/openloader/data/Eizel Origin/data/eizel/powers/pyrophobia.json"
+
+[[files]]
+file = "config/openloader/data/Eizel Origin/data/eizel/powers/skinny.json"
+
+[[files]]
+file = "config/openloader/data/Eizel Origin/data/eizel/tags/items/heavy_weapons.json"
+
+[[files]]
+file = "config/openloader/data/Eizel Origin/data/eizel/tags/items/swords.json"
+
+[[files]]
+file = "config/openloader/data/Eizel Origin/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Eizel Origin/pack.mcmeta"
 
 [[files]]
 file = "config/openloader/data/Furrettaur_Origin_v1.1/data/furret/origins/furrettaur.json"
@@ -1130,6 +1439,42 @@ file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/data/origins/origin_layers
 
 [[files]]
 file = "config/openloader/data/Neoforged_Fox_V2_1.0.0/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Plushie/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Plushie/data/plushie/origins/plushie.json"
+
+[[files]]
+file = "config/openloader/data/Plushie/data/plushie/powers/disable_hunger.json"
+
+[[files]]
+file = "config/openloader/data/Plushie/data/plushie/powers/extremely_flammable.json"
+
+[[files]]
+file = "config/openloader/data/Plushie/data/plushie/powers/heal_with_string.json"
+
+[[files]]
+file = "config/openloader/data/Plushie/data/plushie/powers/heal_with_wool.json"
+
+[[files]]
+file = "config/openloader/data/Plushie/data/plushie/powers/no_air.json"
+
+[[files]]
+file = "config/openloader/data/Plushie/data/plushie/powers/no_fall_dmg.json"
+
+[[files]]
+file = "config/openloader/data/Plushie/data/plushie/powers/no_food.json"
+
+[[files]]
+file = "config/openloader/data/Plushie/data/plushie/powers/soggy.json"
+
+[[files]]
+file = "config/openloader/data/Plushie/data/plushie/powers/vulnerable_body.json"
+
+[[files]]
+file = "config/openloader/data/Plushie/pack.mcmeta"
 
 [[files]]
 file = "config/openloader/data/Serperiortaur_Origin_v1.0/data/origins/origin_layers/origin.json"
@@ -1933,9 +2278,6 @@ file = "icon.png"
 file = "kubejs/assets/lang/en_us.json"
 
 [[files]]
-file = "kubejs/data/c/tags/items/tools.json"
-
-[[files]]
 file = "kubejs/server_scripts/recipes.js"
 
 [[files]]
@@ -2030,10 +2372,6 @@ metafile = true
 
 [[files]]
 file = "mods/block-o-morph.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/bobby.pw.toml"
 metafile = true
 
 [[files]]
@@ -2219,10 +2557,14 @@ file = "mods/emi.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/ensculked-0.1.4.0-pre-1.20.1.jar"
+file = "mods/ensculked-0.1.4.1-pre-1.20.1.jar"
 
 [[files]]
 file = "mods/ephemera-fabric-1.20.1-0.3.0.jar"
+
+[[files]]
+file = "mods/estrogen.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/etcetera-.pw.toml"
@@ -2378,11 +2720,11 @@ file = "mods/hextended-staves.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/hextweaks-5.3.3+fixed.jar"
+file = "mods/hextrogen.pw.toml"
+metafile = true
 
 [[files]]
-file = "mods/hexvr.pw.toml"
-metafile = true
+file = "mods/hextweaks-5.3.3+fixed.jar"
 
 [[files]]
 file = "mods/hierophantics.pw.toml"
@@ -2847,10 +3189,6 @@ metafile = true
 
 [[files]]
 file = "mods/villager-in-a-bucket.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/vivecraft.pw.toml"
 metafile = true
 
 [[files]]
