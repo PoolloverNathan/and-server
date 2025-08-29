@@ -2557,6 +2557,10 @@ file = "mods/emi.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/endertanks.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ensculked-0.1.4.1-pre-1.20.1.jar"
 
 [[files]]
@@ -3066,6 +3070,10 @@ metafile = true
 
 [[files]]
 file = "mods/servertick.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/shetiphiancore.pw.toml"
 metafile = true
 
 [[files]]
