@@ -1,0 +1,85 @@
+{
+    "name":"Momentum burst",
+    "description":"A sudden burst of speed propels you forward. Once per jump — unless you have help.",
+    "type":"origins:active_self",
+    "cooldown":6,
+    "hud_render":{
+        "should_render":false
+    },
+    "key":{
+        "id":"key.origins.secondary_active"
+    },
+    "entity_action":{
+        "type":"origins:and",
+        "actions":[
+            {
+                "type":"origins:add_velocity",
+                "space":"local",
+                "z":0.6
+            },
+            {
+                "type":"origins:change_resource",
+                "resource":"madelinetheclimber:resources_dashesleft",
+                "change":-1
+            },
+            {
+                "type":"origins:if_else",
+                "condition":{
+                    "type":"origins:resource",
+                    "resource":"madelinetheclimber:resources_dashesleft",
+                    "comparison":"==",
+                    "compare_to":1
+                },
+                "if_action":{
+                    "type":"origins:play_sound",
+                    "sound":"minecraft:celeste.pinkdash"
+                },
+                "else_action":{
+                    "type":"origins:play_sound",
+                    "sound":"minecraft:celeste.dash"
+                }
+            },
+            {
+                "type":"origins:if_else",
+                "condition":{
+                    "type":"origins:and",
+                    "conditions":[
+                        {
+                            "type": "origins:block_collision",
+                            "offset_x": 0,
+                            "offset_y": -0.1,
+                            "offset_z": 0,
+                            "inverted":true
+                        },
+                        {
+                            "type": "origins:command",
+                            "command": "execute if entity @s[x_rotation=30..55]",
+                            "comparison": ">=",
+                            "compare_to": 1
+                        }
+                    ]
+                },
+                "if_action":{
+                    "type":"origins:change_resource",
+                    "resource":"madelinetheclimber:resources_wavedashtimer",
+                    "operation":"set",
+                    "change":999
+                },
+                "else_action":{
+                    "type":"origins:nothing"
+                }
+            }
+        ]
+    },
+    "condition":{
+        "type":"origins:and",
+        "conditions":[
+            {
+                "type":"origins:resource",
+                "resource":"madelinetheclimber:resources_dashesleft",
+                "comparison":">",
+                "compare_to":0
+            }
+        ]
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "name":"Featherweight",
+    "description":"Your legs are strong, and your landings are precise. You can jump higher than usual and never take fall damage.",
+    "type":"origins:multiple",
+    
+    "nofall":{
+        "type":"origins:modify_falling",
+        "take_fall_damage":false,
+        "condition":{
+            "type":"origins:and",
+            "conditions":[
+                {
+                    "inverted":true,
+                    "type":"origins:or",
+                    "conditions":[
+                        {
+                            "type":"origins:resource",
+                            "resource":"madelinetheclimber:resources_todayswind",
+                            "comparison":"==",
+                            "compare_to":5
+                        },
+                        {
+                            "type":"origins:resource",
+                            "resource":"madelinetheclimber:resources_todayswind",
+                            "comparison":"==",
+                            "compare_to":6
+                        }
+                    ]
+                },
+                {
+                    "inverted":true,
+                    "type":"origins:or",
+                    "conditions":[
+                        {
+                            "type": "origins:block_collision",
+                            "offset_x": 0.1,
+                            "offset_z": 0.1
+                        },
+                        {
+                            "type": "origins:block_collision",
+                            "offset_x": -0.1,
+                            "offset_z": -0.1
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    
+    "highjump":{
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "set_total",
+            "amount": 0.75
+        },
+        "condition":{
+            "type":"origins:and",
+            "conditions":[
+                {
+                    "inverted":true,
+                    "type":"origins:resource",
+                    "resource":"madelinetheclimber:resources_wavedashtimer",
+                    "comparison":">",
+                    "compare_to":0
+                },
+                {
+                    "inverted":true,
+                    "type":"origins:or",
+                    "conditions":[
+                        {
+                            "type":"origins:resource",
+                            "resource":"madelinetheclimber:resources_todayswind",
+                            "comparison":"==",
+                            "compare_to":5
+                        },
+                        {
+                            "type":"origins:resource",
+                            "resource":"madelinetheclimber:resources_todayswind",
+                            "comparison":"==",
+                            "compare_to":6
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
