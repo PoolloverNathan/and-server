@@ -7,7 +7,7 @@ COPY server-start.sh /app/start.sh
 COPY --from=itzg/mc-monitor /mc-monitor /app/mc-monitor
 
 FROM amazoncorretto:21-alpine3.21
-RUN apk add tmux btrfs-progs neovim bash git
+RUN apk add tmux btrfs-progs neovim bash git git-lfs
 COPY --link --from=0 /app /app
 VOLUME /tmux
 ENV TMUX_TMPDIR=/tmux

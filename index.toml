@@ -2526,10 +2526,6 @@ file = "mods/dimensionaldoors.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/distanthorizons.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/ducky-periphs.pw.toml"
 metafile = true
 
@@ -2902,10 +2898,6 @@ metafile = true
 
 [[files]]
 file = "mods/necronomicon.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/neruina.pw.toml"
 metafile = true
 
 [[files]]
