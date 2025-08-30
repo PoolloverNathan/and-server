@@ -2983,6 +2983,10 @@ file = "mods/pick-your-poison.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/pipez.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/pockets.pw.toml"
 metafile = true
 
