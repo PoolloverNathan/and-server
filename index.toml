@@ -1231,6 +1231,45 @@ file = "config/openloader/data/Laprastaur_Origin_v4.5/data/origins/origin_layers
 file = "config/openloader/data/Laprastaur_Origin_v4.5/pack.mcmeta"
 
 [[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/function/baddieraycast.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/origins/madeline.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/powers/astral_ascent.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/powers/astral_ascent_tooltip.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/powers/celestial_grip.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/powers/dash.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/powers/extrabullshit.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/powers/featherweight.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/powers/howling_gales.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/powers/resources.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Madeline/pack.png"
+
+[[files]]
 file = "config/openloader/data/Mechanical Golem/data/mechbot/origins/golem.json"
 
 [[files]]
@@ -2275,6 +2314,9 @@ file = "config/vowels-packwiz.json"
 file = "icon.png"
 
 [[files]]
+file = "index.toml.orig"
+
+[[files]]
 file = "kubejs/assets/lang/en_us.json"
 
 [[files]]
@@ -2553,6 +2595,10 @@ file = "mods/emi.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/enchancement.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/endertanks.pw.toml"
 metafile = true
 
@@ -2729,6 +2775,9 @@ file = "mods/hextweaks-5.3.3+fixed.jar"
 [[files]]
 file = "mods/hierophantics.pw.toml"
 metafile = true
+
+[[files]]
+file = "mods/hollow_knight_origins-0.21-1.20.X.jar"
 
 [[files]]
 file = "mods/immersive-optimization.pw.toml"
