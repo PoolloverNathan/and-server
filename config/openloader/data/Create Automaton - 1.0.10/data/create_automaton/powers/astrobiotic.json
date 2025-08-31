@@ -1,0 +1,15 @@
+{
+    "0": {
+        "type": "origins:night_vision"
+    },
+    "1": {
+        "type": "origins:fire_immunity"
+    },
+    "2": {
+        "type": "origins:water_breathing"
+    },
+    "name": " Astrobiotic",
+    "description": " -- You can breathe in space, and see in the darkness. You do not freeze in space.",
+    "loading_priority": 1,
+    "type": "origins:multiple"
+}
