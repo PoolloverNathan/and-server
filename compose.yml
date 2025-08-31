@@ -57,6 +57,8 @@ services:
       - 42280:42280/udp
     entrypoint: sh
     command: /app/start.sh
+    deploy:
+      replicas: 0
   console:
     <<: &console
       image: docker.pool.net.eu.org/tmux
