@@ -2742,7 +2742,8 @@ metafile = true
 file = "mods/hexical-2.0.0.jar"
 
 [[files]]
-file = "mods/hexmu-1.4.1.jar"
+file = "mods/hexmu.pw.toml"
+metafile = true
 
 [[files]]
 file = "mods/hexodus.pw.toml"
