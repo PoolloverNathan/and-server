@@ -2194,6 +2194,10 @@ file = "config/openloader/data/snail/data/snail/tags/blocks/warped_weak.json"
 file = "config/openloader/data/snail/pack.mcmeta"
 
 [[files]]
+file = "config/openloader/data/timelord-origin-(exclusive-origin).pw.toml"
+metafile = true
+
+[[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/black.mcfunction"
 
 [[files]]
