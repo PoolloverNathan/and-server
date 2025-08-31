@@ -1231,6 +1231,45 @@ file = "config/openloader/data/Laprastaur_Origin_v4.5/data/origins/origin_layers
 file = "config/openloader/data/Laprastaur_Origin_v4.5/pack.mcmeta"
 
 [[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/function/baddieraycast.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/origins/madeline.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/powers/astral_ascent.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/powers/astral_ascent_tooltip.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/powers/celestial_grip.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/powers/dash.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/powers/extrabullshit.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/powers/featherweight.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/powers/howling_gales.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/madelinetheclimber/powers/resources.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Madeline/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Madeline/pack.png"
+
+[[files]]
 file = "config/openloader/data/Mechanical Golem/data/mechbot/origins/golem.json"
 
 [[files]]
@@ -2278,6 +2317,12 @@ file = "icon.png"
 file = "kubejs/assets/lang/en_us.json"
 
 [[files]]
+file = "kubejs/data/kubejs/functions/tick.mcfunction"
+
+[[files]]
+file = "kubejs/data/kubejs/tags/functions/tick.json"
+
+[[files]]
 file = "kubejs/server_scripts/recipes.js"
 
 [[files]]
@@ -2675,9 +2720,6 @@ file = "mods/hexal-fabric-1.20.1-0.3.0-3-skyevg-unofficial-teleport-experiment.j
 file = "mods/hexcassettes-2.0.0.jar"
 
 [[files]]
-file = "mods/hexcasting-fabric-1.20.1-0.11.2.3-SpellCircle.jar"
-
-[[files]]
 file = "mods/hexcellular-1.1.0.jar"
 
 [[files]]
@@ -2694,6 +2736,9 @@ metafile = true
 
 [[files]]
 file = "mods/hexical-2.0.0.jar"
+
+[[files]]
+file = "mods/hexmu-1.4.1.jar"
 
 [[files]]
 file = "mods/hexodus.pw.toml"
@@ -2729,6 +2774,9 @@ file = "mods/hextweaks-5.3.3+fixed.jar"
 [[files]]
 file = "mods/hierophantics.pw.toml"
 metafile = true
+
+[[files]]
+file = "mods/hollow_knight_origins-0.21-1.20.X.jar"
 
 [[files]]
 file = "mods/immersive-optimization.pw.toml"
