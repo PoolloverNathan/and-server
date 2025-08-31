@@ -1,0 +1,32 @@
+{
+    "hidden": false,
+    "type": "origins:multiple",
+    "gain": {
+        "type": "origins:action_on_callback",
+        "execute_chosen_when_orb": true,
+        "entity_action_added": {
+            "type": "origins:execute_command",
+            "command": "scoreboard players operation @s doctorwho.limbo = GlobalTime doctorwho.limbo"
+        }
+    },
+    "key0_": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "function doctorwho:limboloop"
+        }
+    },
+    "blind": {
+        "type": "origins:overlay",
+        "texture": "minecraft:textures/block/white_concrete.png",
+        "strength": 1,
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "draw_mode": "texture",
+        "draw_phase": "below_hud",
+        "hide_with_hud": false,
+        "visible_in_third_person": true
+    }
+}

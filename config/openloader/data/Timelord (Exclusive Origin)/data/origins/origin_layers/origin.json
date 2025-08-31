@@ -1,0 +1,31 @@
+{
+    "origins": [
+        "doctorwho:dead",
+        {
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:resource",
+                        "resource": "doctorwho:all_timelordtaken",
+                        "comparison": "==",
+                        "compare_to": 0
+                    },
+                    {
+                        "type": "origins:resource",
+                        "resource": "doctorwho:all_hasbeentimelord",
+                        "comparison": "==",
+                        "compare_to": 0
+                    }
+                ]
+            },
+            "origins": [
+                "doctorwho:timelord"
+            ]
+        }
+    ],
+    "enabled": true,
+    "exclude_random": [
+        "doctorwho:timelord"
+    ]
+}

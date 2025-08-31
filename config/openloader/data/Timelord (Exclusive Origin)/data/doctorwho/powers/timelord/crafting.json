@@ -1,0 +1,147 @@
+{
+    "name": "§aTimelord Technology",
+    "description": "You can craft items others can not. All thanks to the advanced knowledge of the timelords.\n\nHas compatiblity with the mods: 'Adventures in Time', 'Tardis Refined', 'Mini Tardis', 'Doctor Who - Weeping Angels', and 'Doctor Who - Regeneration'.\n\n",
+    "hidden": false,
+    "type": "origins:multiple",
+    "crafting": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:modify_inventory",
+            "inventory_type": "inventory",
+            "item_action": {
+                "type": "origins:merge_nbt",
+                "nbt": "{Crafted:1b}"
+            },
+            "item_condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:or",
+                        "conditions": [
+                            {
+                                "type": "origins:ingredient",
+                                "ingredient": {
+                                    "tag": "doctorwho:tt_ait"
+                                }
+                            },
+                            {
+                                "type": "origins:ingredient",
+                                "ingredient": {
+                                    "tag": "doctorwho:tt_tardis_refined"
+                                }
+                            },
+                            {
+                                "type": "origins:ingredient",
+                                "ingredient": {
+                                    "tag": "doctorwho:tt_mini_tardis"
+                                }
+                            },
+                            {
+                                "type": "origins:ingredient",
+                                "ingredient": {
+                                    "tag": "doctorwho:tt_weeping_angels"
+                                }
+                            },
+                            {
+                                "type": "origins:ingredient",
+                                "ingredient": {
+                                    "tag": "doctorwho:tt_regen"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "inverted": true,
+                        "type": "origins:nbt",
+                        "nbt": "{Crafted:1b}"
+                    }
+                ]
+            },
+            "slots": [
+                "armor.chest",
+                "armor.feet",
+                "armor.head",
+                "armor.legs",
+                "inventory.0",
+                "inventory.1",
+                "inventory.2",
+                "inventory.3",
+                "inventory.4",
+                "inventory.5",
+                "inventory.6",
+                "inventory.7",
+                "inventory.8",
+                "inventory.9",
+                "inventory.10",
+                "inventory.11",
+                "inventory.12",
+                "inventory.13",
+                "inventory.14",
+                "inventory.15",
+                "inventory.16",
+                "inventory.17",
+                "inventory.18",
+                "inventory.19",
+                "inventory.20",
+                "inventory.21",
+                "inventory.22",
+                "inventory.23",
+                "inventory.24",
+                "inventory.25",
+                "inventory.26",
+                "hotbar.0",
+                "hotbar.1",
+                "hotbar.2",
+                "hotbar.3",
+                "hotbar.4",
+                "hotbar.5",
+                "hotbar.6",
+                "hotbar.7",
+                "hotbar.8"
+            ],
+            "process_mode": "items",
+            "limit": 0
+        }
+    },
+    "craft_display": {
+        "type": "origins:tooltip",
+        "item_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "doctorwho:tt_ait"
+                    }
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "doctorwho:tt_tardis_refined"
+                    }
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "doctorwho:tt_mini_tardis"
+                    }
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "doctorwho:tt_weeping_angels"
+                    }
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "doctorwho:tt_regen"
+                    }
+                }
+            ]
+        },
+        "text": "§aTimelord technology only you can craft.",
+        "order": 1
+    }
+}

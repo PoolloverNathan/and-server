@@ -1,0 +1,24 @@
+{
+    "replace": false,
+    "values": [
+        "ait:coral_plant",
+        "ait:artron_collector",
+        "ait:rift_scanner",
+        "ait:netherite_key_upgrade_smithing_template",
+        "ait:gold_key_upgrade_smithing_template",
+        "ait:classic_key",
+        "ait:netherite_key",
+        "ait:gold_key",
+        "ait:iron_key",
+        "ait:detector_block",
+        "ait:plaque_block",
+        "ait:monitor_block",
+        "ait:artron_collector_block",
+        "ait:console_generator",
+        "ait:door_block",
+        "ait:waypoint_cartridge",
+        "ait:charged_zeiton_crystal",
+        "ait:sonic_screwdriver",
+        "ait:classic_key_upgrade_smithing_template"
+    ]
+}

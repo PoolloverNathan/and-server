@@ -1,0 +1,296 @@
+{
+    "name": "§aRegeneration",
+    "description": "You have 12 lives as a timelord. Where each time you die, you will regenerate violently. Becoming a new person. Until you have no more left.\n\nHas compatiblity with 'Doctor Who - Regeneration', but not required.\n\n",
+    "hidden": false,
+    "type": "origins:multiple",
+    "option_a": {
+        "condition": {
+            "type": "origins:scoreboard",
+            "name": "RegenerationMod",
+            "objective": "doctorwho.settings",
+            "comparison": "==",
+            "compare_to": 1
+        },
+        "type": "origins:action_on_callback",
+        "execute_chosen_when_orb": true,
+        "entity_action_added": {
+            "type": "origins:execute_command",
+            "command": "regen set-regens @s 12"
+        }
+    },
+    "option_b": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:scoreboard",
+                    "name": "RegenerationMod",
+                    "objective": "doctorwho.settings",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_lives",
+                    "comparison": "!=",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:prevent_death",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_regeneration_animation_timer",
+            "change": -6000,
+            "operation": "set"
+        }
+    },
+    "regeneration_animation_timer": {
+        "type": "origins:resource",
+        "min": -1200,
+        "max": 12000,
+        "start_value": 12000,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "key2": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_regeneration_animation_timer",
+            "comparison": "<=",
+            "compare_to": 0
+        },
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.8
+        }
+    },
+    "charge": {
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_regeneration_animation_timer",
+            "comparison": "<=",
+            "compare_to": -40
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle minecraft:dust 1.000 0.800 0.000 1 ~ ~1 ~ 0.2 0.3 0.2 1 9 normal @a"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle minecraft:dust 1.000 0.800 0.000 1 ~ ~1 ~ 0.2 0.3 0.2 1 1 force @a"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_regeneration_animation_timer",
+                    "change": 1,
+                    "operation": "add"
+                }
+            ]
+        },
+        "rising_action": {
+            "type": "origins:heal",
+            "amount": 99
+        }
+    },
+    "durring": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_regeneration_animation_timer",
+                    "comparison": ">",
+                    "compare_to": -40
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_regeneration_animation_timer",
+                    "comparison": "<=",
+                    "compare_to": 0
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle minecraft:dust 1.000 0.800 0.000 1 ~ ~1 ~ 0.5 0.3 0.5 1 80 normal @a"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle minecraft:dust 1.000 0.800 0.000 1 ~ ~1 ~ 0.5 0.3 0.5 1 20 force @a"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_regeneration_animation_timer",
+                    "change": 1,
+                    "operation": "add"
+                }
+            ]
+        },
+        "falling_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 99,
+                    "saturation": 99
+                },
+                {
+                    "type": "origins:gain_air",
+                    "value": 99
+                },
+                {
+                    "type": "origins:heal",
+                    "amount": 99
+                },
+                {
+                    "type": "origins:if_else",
+                    "condition": {
+                        "type": "origins:or",
+                        "conditions": [
+                            {
+                                "type": "origins:dimension",
+                                "dimension": "minecraft:overworld"
+                            },
+                            {
+                                "type": "origins:dimension",
+                                "dimension": "minecraft:the_nether"
+                            },
+                            {
+                                "type": "origins:dimension",
+                                "dimension": "minecraft:the_end"
+                            }
+                        ]
+                    },
+                    "if_action": {
+                        "type": "origins:explode",
+                        "power": 8,
+                        "destruction_type": "break",
+                        "damage_self": false,
+                        "create_fire": true
+                    }
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effects": [
+                        {
+                            "effect": "minecraft:hunger",
+                            "duration": 12000,
+                            "amplifier": 3,
+                            "is_ambient": true,
+                            "show_particles": false,
+                            "show_icon": true
+                        },
+                        {
+                            "effect": "minecraft:weakness",
+                            "duration": 12000,
+                            "amplifier": 1,
+                            "is_ambient": true,
+                            "show_particles": false,
+                            "show_icon": true
+                        },
+                        {
+                            "effect": "minecraft:regeneration",
+                            "duration": 12000,
+                            "amplifier": 3,
+                            "is_ambient": true,
+                            "show_particles": false,
+                            "show_icon": true
+                        },
+                        {
+                            "effect": "minecraft:absorption",
+                            "duration": 12000,
+                            "amplifier": 2,
+                            "is_ambient": true,
+                            "show_particles": false,
+                            "show_icon": true
+                        },
+                        {
+                            "effect": "minecraft:slow_falling",
+                            "duration": 200,
+                            "amplifier": 0,
+                            "is_ambient": true,
+                            "show_particles": false,
+                            "show_icon": true
+                        },
+                        {
+                            "effect": "minecraft:fire_resistance",
+                            "duration": 200,
+                            "amplifier": 0,
+                            "is_ambient": true,
+                            "show_particles": false,
+                            "show_icon": true
+                        }
+                    ]
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_lives",
+                    "change": -1,
+                    "operation": "add"
+                }
+            ]
+        }
+    },
+    "after": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_regeneration_animation_timer",
+                    "comparison": ">",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_regeneration_animation_timer",
+                    "comparison": "!=",
+                    "compare_to": 12000
+                }
+            ]
+        },
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle minecraft:dust 1.000 0.800 0.000 1 ~ ~1 ~ 0.2 0.3 0.2 1 1 normal @a"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "particle minecraft:dust 1.000 0.800 0.000 1 ~ ~1 ~ 0.2 0.3 0.2 1 1 force @a"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_regeneration_animation_timer",
+                    "change": 1,
+                    "operation": "add"
+                }
+            ]
+        }
+    },
+    "lives": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 12,
+        "start_value": 12,
+        "hud_render": {
+            "should_render": false
+        }
+    }
+}

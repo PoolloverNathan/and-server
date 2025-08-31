@@ -1,0 +1,21 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "timelord_cheak": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "scoreboard players set OriginTaken doctorwho.settings 1"
+        }
+    },
+    "orb_of_origin": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "origins:orb_of_origin"
+            }
+        }
+    }
+}
