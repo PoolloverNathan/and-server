@@ -1618,6 +1618,87 @@ file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/data/slime_taur/tag
 file = "config/openloader/data/Slimetaur_Origin_Release_v1.0/pack.mcmeta"
 
 [[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/functions/api/reset.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/functions/death.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/functions/limboloop.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/functions/load.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/functions/loop.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/functions/playerloop.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/functions/regeneration_cheak.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/functions/regens_death.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/functions/respawn.mcfunction"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/origins/dead.json"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/origins/timelord.json"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/powers/all.json"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/powers/dead/timer.json"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/powers/timelord/crafting.json"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/powers/timelord/death.json"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/powers/timelord/main.json"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/powers/timelord/regeneration.json"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/tags/items/tt_ait.json"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/tags/items/tt_mini_tardis.json"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/tags/items/tt_regen.json"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/tags/items/tt_tardis_refined.json"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/doctorwho/tags/items/tt_weeping_angels.json"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/minecraft/tags/functions/load.json"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/minecraft/tags/functions/tick.json"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/pack.mcmeta"
+
+[[files]]
+file = "config/openloader/data/Timelord (Exclusive Origin)/pack.png"
+
+[[files]]
 file = "config/openloader/data/Wailord-Tongue_Origin_v1.0/data/origins/origin_layers/origin.json"
 
 [[files]]
@@ -2194,10 +2275,6 @@ file = "config/openloader/data/snail/data/snail/tags/blocks/warped_weak.json"
 file = "config/openloader/data/snail/pack.mcmeta"
 
 [[files]]
-file = "config/openloader/data/timelord-origin-(exclusive-origin).pw.toml"
-metafile = true
-
-[[files]]
 file = "config/openloader/data/wooly1.1_1.20.1-/data/fluffy/functions/black.mcfunction"
 
 [[files]]
@@ -2358,10 +2435,6 @@ metafile = true
 
 [[files]]
 file = "mods/animal_feeding_trough.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/anvil_heads.pw.toml"
 metafile = true
 
 [[files]]
@@ -3277,6 +3350,10 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/yigd_.pw.toml"
 metafile = true
 
 [[files]]
