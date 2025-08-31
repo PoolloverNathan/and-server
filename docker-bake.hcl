@@ -7,3 +7,9 @@ target "server" {
 		pack = "target:pack"
 	}
 }
+
+target "test" {
+	contexts = {
+		pack = "target:pack"
+	}
+}

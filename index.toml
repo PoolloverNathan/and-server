@@ -2808,10 +2808,6 @@ file = "mods/inline.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/inventorio.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/invview.pw.toml"
 metafile = true
 
@@ -2845,10 +2841,6 @@ metafile = true
 
 [[files]]
 file = "mods/kambrik.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/kilt.pw.toml"
 metafile = true
 
 [[files]]
@@ -2954,6 +2946,10 @@ file = "mods/necronomicon.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/neruina.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 metafile = true
 
@@ -3029,10 +3025,6 @@ metafile = true
 
 [[files]]
 file = "mods/pick-your-poison.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/pipez.pw.toml"
 metafile = true
 
 [[files]]
@@ -3281,10 +3273,6 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/yigd.pw.toml"
 metafile = true
 
 [[files]]
