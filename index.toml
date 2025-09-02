@@ -229,9 +229,6 @@ file = "config/openloader/data/Avali/data/avali/functions/tick.mcfunction"
 file = "config/openloader/data/Avali/data/avali/origins/avali.json"
 
 [[files]]
-file = "config/openloader/data/Avali/data/avali/powers/corer.json"
-
-[[files]]
 file = "config/openloader/data/Avali/data/avali/powers/credit.json"
 
 [[files]]
@@ -253,19 +250,10 @@ file = "config/openloader/data/Avali/data/avali/powers/cybernetics/abilitys/wing
 file = "config/openloader/data/Avali/data/avali/powers/cybernetics/abilitys/wings2.json"
 
 [[files]]
-file = "config/openloader/data/Avali/data/avali/powers/cybernetics/no_upgrades/core.json"
-
-[[files]]
 file = "config/openloader/data/Avali/data/avali/powers/cybernetics/no_upgrades/eyes.json"
 
 [[files]]
-file = "config/openloader/data/Avali/data/avali/powers/cybernetics/tier1/core.json"
-
-[[files]]
 file = "config/openloader/data/Avali/data/avali/powers/cybernetics/tier1/eyes.json"
-
-[[files]]
-file = "config/openloader/data/Avali/data/avali/powers/cybernetics/tier2/core.json"
 
 [[files]]
 file = "config/openloader/data/Avali/data/avali/powers/cybernetics/tier2/eyes.json"
@@ -290,9 +278,6 @@ file = "config/openloader/data/Avali/data/avali/powers/glide.json"
 
 [[files]]
 file = "config/openloader/data/Avali/data/avali/powers/glowing.json"
-
-[[files]]
-file = "config/openloader/data/Avali/data/avali/powers/heat_bar.json"
 
 [[files]]
 file = "config/openloader/data/Avali/data/avali/powers/holy_shit_i_love_tunes.json"
@@ -758,6 +743,9 @@ file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/p
 
 [[files]]
 file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/andesite/toolbox/toolbox.json"
+
+[[files]]
+file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/astrobiotic.json"
 
 [[files]]
 file = "config/openloader/data/Create Automaton - 1.0.10/data/create_automaton/powers/brass/arm/reach.json"
