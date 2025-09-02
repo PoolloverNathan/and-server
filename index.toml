@@ -3132,6 +3132,10 @@ file = "mods/rechiseled.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/regeneration.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/rei.pw.toml"
 metafile = true
 
