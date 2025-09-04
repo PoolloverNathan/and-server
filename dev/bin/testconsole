@@ -1,0 +1,4 @@
+#!/bin/sh
+set -e
+docker buildx bake test
+docker compose run --rm -P test

@@ -1,0 +1,28 @@
+{
+    "replace": false,
+    "values": [
+        "tardis_refined:tardis_key",
+        "tardis_refined:amethyst_screwdriver",
+        "tardis_refined:pattern_manipulator",
+        "tardis_refined:drill",
+        "tardis_refined:glasses",
+        "tardis_refined:tardis_door",
+        "tardis_refined:terraformer",
+        "tardis_refined:bulk_head_door",
+        "tardis_refined:flight_detector",
+        "tardis_refined:tardis_console",
+        "tardis_refined:gravity_well",
+        "tardis_refined:ars_egg",
+        "tardis_refined:corridor_teleporter",
+        "tardis_refined:landing_pad",
+        "tardis_refined:astral_manipulator",
+        "tardis_refined:console_configuration",
+        "tardis_refined:root_plant",
+        "tardis_refined:root_shell",
+        "tardis_refined:zeiton_block",
+        "tardis_refined:zeiton_fused_iron_block",
+        "tardis_refined:zeiton_fused_copper_block",
+        "tardis_refined:zeiton_ingot",
+        "tardis_refined:zeiton_nugget"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name":"Astral ascent",
+    "description":"Badeline rushes to the position you marked and launches you upward upon touching, just like in the old days.",
+    "type":"origins:active_self",
+    "key":{
+        "id":"key.origins.ternary_active"
+    },
+    "entity_action":{
+        "type":"origins:nothing"
+    }
+}

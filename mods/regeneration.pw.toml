@@ -1,0 +1,13 @@
+name = "Doctor Who: Regeneration (Legacy)"
+filename = "Regeneration-v1.20.1-42.1.1-fabric-42.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8gkWtwQu/versions/MIEGLtNA/Regeneration-v1.20.1-42.1.1-fabric-42.1.1.jar"
+hash-format = "sha512"
+hash = "550bf9dc65a417135defba28ec2b3b7225bdc8cf6cec31c5073ba13b5f15d1c71ad9a387c28e18137d69f9fa83c46dac303737e1afe9c59c5a261668d93f9544"
+
+[update]
+[update.modrinth]
+mod-id = "8gkWtwQu"
+version = "MIEGLtNA"

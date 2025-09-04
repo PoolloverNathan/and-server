@@ -1,0 +1,42 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "no_crafting": {
+        "type": "origins:simple"
+    },
+    "no_craft_display": {
+        "type": "origins:simple"
+    },
+    "craft_display_cheat": {
+        "type": "origins:simple"
+    },
+    "crafting_cheat": {
+        "type": "origins:simple"
+    },
+    "hasbeentimelord": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "start_value": 0,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "timelordtaken": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 1,
+        "start_value": 0,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "playerloop": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "function doctorwho:playerloop"
+        }
+    }
+}

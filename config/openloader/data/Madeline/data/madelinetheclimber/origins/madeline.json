@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"madelinetheclimber:featherweight",
+		"madelinetheclimber:dash",
+		"madelinetheclimber:celestial_grip",
+		"madelinetheclimber:astral_ascent",
+		"madelinetheclimber:astral_ascent_tooltip",
+		"madelinetheclimber:resources",
+		"madelinetheclimber:extrabullshit",
+		"madelinetheclimber:howling_gales"
+	],
+    "icon": {
+        "item": "minecraft:apple"
+    },
+	"order": 0,
+	"impact": 1,
+	"name": "Madeline",
+	"description": "A determined climber who fell from Celeste Mountain into this world, bringing her agility and resilience with her."
+}

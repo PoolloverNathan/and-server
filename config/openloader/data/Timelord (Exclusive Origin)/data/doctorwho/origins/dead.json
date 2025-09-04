@@ -1,0 +1,12 @@
+{
+    "name": "Limbo",
+    "description": "You have died as a timelord, you shall wait in limbo until its time to respawn.",
+    "powers": [
+        "doctorwho:dead/timer"
+    ],
+    "icon": {
+        "item": "minecraft:black_candle"
+    },
+    "impact": 3,
+    "unchoosable": true
+}

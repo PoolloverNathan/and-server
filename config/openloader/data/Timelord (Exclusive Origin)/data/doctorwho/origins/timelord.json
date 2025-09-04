@@ -1,0 +1,14 @@
+{
+    "name": "§5Doctor of Time",
+    "description": "§4§nThis is a one of a kind origin. Meaning no one else can have it while you do.§r\n\nYou are a timelord, a species that ruled all of time and space with there legendary technology.\n\n",
+    "powers": [
+        "doctorwho:timelord/main",
+        "doctorwho:timelord/crafting",
+        "doctorwho:timelord/regeneration",
+        "doctorwho:timelord/death"
+    ],
+    "icon": {
+        "item": "minecraft:clock"
+    },
+    "impact": 3
+}

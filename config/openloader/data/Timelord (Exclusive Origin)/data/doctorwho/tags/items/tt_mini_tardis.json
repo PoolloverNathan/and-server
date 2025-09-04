@@ -1,0 +1,23 @@
+{
+    "replace": false,
+    "values": [
+        "mini_tardis:interior_door",
+        "mini_tardis:handbrake",
+        "mini_tardis:console_screen",
+        "mini_tardis:wall_screen",
+        "mini_tardis:reset_destination_button",
+        "mini_tardis:nudge_destination_button_1",
+        "mini_tardis:nudge_destination_button_2",
+        "mini_tardis:coordinate_scale_selector",
+        "mini_tardis:rotation_selector",
+        "mini_tardis:vertical_nudge_destination_button",
+        "mini_tardis:refuel_toggle",
+        "mini_tardis:state_comparator",
+        "mini_tardis:fuel_control",
+        "mini_tardis:coordinate_lock",
+        "mini_tardis:interior_light",
+        "mini_tardis:makeshift_engine",
+        "mini_tardis:tardis_plating",
+        "mini_tardis:power_coupling"
+    ]
+}

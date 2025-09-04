@@ -2,60 +2,76 @@ name: and
 
 volumes:
   world:
+  testworld:
   tmux:
+  testtmux:
 
 services:
   server:
-    image: docker.pool.net.eu.org/and-server/server
-    build: dedicated-server/
-    init: true
-    cpus: 3
-    restart: unless-stopped
-    stdin_open: true
-    tty: true
-    volumes:
-      - world:/mnt
-      - tmux:/tmux
+    <<: &server
+      image: docker.pool.net.eu.org/and-server/server
+      build: dedicated-server/
+      init: true
+      cpus: 3
+      restart: unless-stopped
+      stdin_open: true
+      tty: true
+      deploy:
+        resources:
+          limits:
+            cpus: 3
+            memory: 12G
+      healthcheck:
+        test: /app/mc-monitor status
+        start_period: 5m
+        interval: 5s
+        retries: 3
+      develop:
+        watch:
+          - action: sync
+            path: kubejs/server_scripts
+            target: /mnt/kubejs/server_scripts
+          - action: sync
+            path: kubejs/data
+            target: /mnt/kubejs/data
+          - action: sync
+            path: config/openloader
+            target: /mnt/config/openloader
+          - action: sync+restart
+            path: kubejs/startup_scripts
+            target: /mnt/kubejs/startup_scripts
     ports:
       - 39781:25565
       - 39781:25565/udp
-      - 42279:42279/udp
+      - 42279:42280/udp
+    volumes:
+      - world:/mnt
+      - tmux:/tmux
+  test:
+    <<: *server
+    volumes:
+      - testworld:/mnt
+    ports:
+      - 39782:25565
+      - 39782:25565/udp
+      - 42280:42280/udp
+    entrypoint: sh
+    command: /app/start.sh
     deploy:
-      resources:
-        limits:
-          cpus: 3
-          memory: 12G
-    healthcheck:
-      test: /app/mc-monitor status
-      start_period: 5m
-      interval: 5s
-      retries: 3
-    develop:
-      watch:
-        - action: sync
-          path: kubejs/server_scripts
-          target: /mnt/kubejs/server_scripts
-        - action: sync
-          path: kubejs/data
-          target: /mnt/kubejs/data
-        - action: sync
-          path: config/openloader
-          target: /mnt/config/openloader
-        - action: sync+restart
-          path: kubejs/startup_scripts
-          target: /mnt/kubejs/startup_scripts
+      replicas: 0
   console:
-    image: docker.pool.net.eu.org/tmux
-    profiles:
-      - NEVER
+    <<: &console
+      image: docker.pool.net.eu.org/tmux
+      profiles:
+        - NEVER
+      build:
+        context: /var/empty
+        dockerfile_inline: |
+          FROM alpine
+          RUN apk add tmux
+          VOLUME /tmux
+          ENV TMUX_TMPDIR=/tmux
+          ENTRYPOINT ["tmux"]
+          CMD ["a"]
     volumes:
       - tmux:/tmux
-    build:
-      context: /var/empty
-      dockerfile_inline: |
-        FROM alpine
-        RUN apk add tmux
-        VOLUME /tmux
-        ENV TMUX_TMPDIR=/tmux
-        ENTRYPOINT ["tmux"]
-        CMD ["a"]

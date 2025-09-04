@@ -1,0 +1,365 @@
+{
+    "name":"extra bullshit",
+    "description":"contains all the other abilities n' stuff that didn't really fit into the other files, such as sound handlers, walljumping, climbjumping, wavedashing, etc.",
+    "hidden":true,
+    "type":"origins:multiple",
+    
+
+    "sleepstuffs":{
+        "type":"origins:prevent_sleep",
+        "set_spawn_point":true,
+        "message":"You cannot sleep, the bed is too low. Go somewhere higher up!",
+        "block_condition": {
+            "type": "origins:height",
+            "comparison": "<",
+            "compare_to": 120
+        }
+        
+    },
+    "badelinestfu":{
+        "type":"origins:action_on_callback",
+        "entity_action_added":{
+            "type":"origins:change_resource",
+            "resource":"madelinetheclimber:resources_badelinespeaking",
+            "operation":"set",
+            "change":0
+        }
+    },
+    "lowhealth":{
+        "type": "origins:action_on_callback",
+        "entity_action_gained":{
+            "type":"origins:execute_command",
+            "command":"attribute @s minecraft:generic.max_health base set 14.0"
+	    },
+        "entity_action_removed":{
+            "type":"origins:and",
+            "actions":[
+                {
+                    "type":"origins:execute_command",
+                    "command":"attribute @s minecraft:generic.max_health base set 20"
+                },
+                {
+                    "type":"origins:heal",
+                    "amount":20
+                }
+            ]
+        },
+        "entity_action_respawned":{
+            "type":"origins:execute_command",
+            "command":"attribute @s minecraft:generic.max_health base set 14.0"
+        }
+    },
+    "morefiredmg":{
+        "type":"origins:modify_damage_taken",
+        "modifier":{
+            "operation":"multiply_total_multiplicative",
+            "amount":0.5
+        },
+        "damage_condition":{
+            "type":"origins:in_tag",
+            "tag":"minecraft:is_fire"
+        }
+    },
+    "lessdmgdealt":{
+        "type":"origins:modify_damage_dealt",
+        "modifier":{
+            "operation":"multiply_total_multiplicative",
+            "amount":-0.25
+        }
+    },
+    "gettagstuff":{
+        "type":"origins:action_on_callback",
+        "entity_action_gained":{
+            "type":"origins:and",
+            "actions":[
+                {
+                    "type":"origins:execute_command",
+                    "command":"tag @s add zbyszeqs_madeline"
+                }
+            ]
+        },
+        "entity_action_lost":{
+            "type":"origins:and",
+            "actions":[
+                {
+                    "type":"origins:execute_command",
+                    "command":"tag @s remove zbyszeqs_madeline"
+                },
+                {
+                    "type":"origins:execute_command",
+                    "command":"kill @e[tag=badeline]"
+                },
+                {
+                    "type":"origins:execute_command",
+                    "command":"kill @e[tag=badelinetarget]"
+                },
+                {
+                    "type":"origins:execute_command",
+                    "command":"scale set pehkui:height 1 @s"
+                }
+            ]
+        }
+    },
+
+    "crouchcquish":{
+        "type":"origins:action_over_time",
+        "interval":1,
+        "entity_action":{
+            "type":"origins:if_else",
+            "condition":{
+                "type":"origins:sneaking"
+            },
+            "if_action":{
+                "type":"origins:execute_command",
+                "command":"scale set pehkui:height 0.5 @s"
+            },
+            "else_action":{
+                "type":"origins:execute_command",
+                "command":"scale set pehkui:height 1 @s"
+            }
+        }
+    },
+    "wavedash":{
+        "type":"origins:active_self",
+        
+        "key":{
+            "id":"key.jump",
+            "continuous":true
+        },
+        "condition":{
+            "type":"origins:and",
+            "conditions":[
+                {
+                    "type": "origins:block_collision",
+                    "offset_x": 0,
+                    "offset_y": -0.1,
+                    "offset_z": 0
+                },
+                {
+                    "type":"origins:resource",
+                    "resource":"madelinetheclimber:resources_wavedashtimer",
+                    "comparison":">",
+                    "compare_to":0
+                }
+            ]
+        },
+        "entity_action":{
+            "type":"origins:and",
+            "actions":[
+                {
+                    "type":"origins:add_velocity",
+                    "space":"local_horizontal",
+                    "z":1.5
+                },
+                {
+                    "type":"origins:if_else",
+                    "condition":{
+                        "type": "origins:in_block",
+                            "block_condition": {
+                                "type":"origins:height",
+                                "comparison":"<=",
+                                "compare_to":63
+                            }
+                    },
+                    "if_action":{
+                        "type":"origins:nothing"
+                    },
+                    "else_action":{
+                        "type":"origins:change_resource",
+                        "resource":"madelinetheclimber:resources_dashesleft",
+                        "operation":"set",
+                        "change":2
+                    }
+                }
+            ]
+        }
+    },
+    "groundjumpaction":{
+        "type":"origins:active_self",
+        "key":{
+            "id":"key.jump"
+        },
+        "condition":{
+            "type": "origins:block_collision",
+            "offset_x": 0,
+            "offset_y": -0.1,
+            "offset_z": 0
+        },
+        "entity_action":{
+            "type":"origins:play_sound",
+            "sound":"minecraft:celeste.jump"
+        }
+    },
+    "wallsliding":{
+        "type":"origins:modify_falling",
+        "velocity":0.02,
+        "take_fall_damage":false,
+        "condition":{
+            "type":"origins:or",
+            "conditions":[
+                {
+                    "type": "origins:block_collision",
+                    "offset_x": 0.1,
+                    "offset_z": 0.1
+                },
+                {
+                    "type": "origins:block_collision",
+                    "offset_x": -0.1,
+                    "offset_z": -0.1
+                }
+            ]
+        }
+    },
+    "walljumping":{
+        "type":"origins:active_self",
+        "key":{
+            "id":"key.jump"
+        },
+        "condition":{
+            "type":"origins:and",
+            "conditions":[
+                {
+                    "type":"origins:climbing",
+                    "inverted":true
+                },
+                {
+                    "inverted":true,
+                    "type": "origins:block_collision",
+                    "offset_x": 0,
+                    "offset_y": -0.1,
+                    "offset_z": 0
+                },
+                {
+                    "type":"origins:or",
+                    "conditions":[
+                        {
+                            "type": "origins:block_collision",
+                            "offset_x": 0.1,
+                            "offset_z": 0.1
+                        },
+                        {
+                            "type": "origins:block_collision",
+                            "offset_x": -0.1,
+                            "offset_z": -0.1
+                        }
+                    ]
+                }
+            ]
+        },
+        "entity_action":{
+            "type":"origins:and",
+            "actions":[
+                {
+                    "type":"origins:play_sound",
+                    "sound":"minecraft:celeste.jump"
+                },
+                {
+                    "type":"origins:add_velocity",
+                    "y":0.45,
+                    "set":false
+                },
+                {
+                    "type":"origins:if_else_list",
+                    "actions":[
+                        {
+                            "condition":{
+                                "type": "origins:block_collision",
+                                "offset_x": 0.1
+                            },
+                            "action":{
+                                "type":"origins:add_velocity",
+                                "x":-0.3
+                            }
+                        },
+                        {
+                            "condition":{
+                                "type": "origins:block_collision",
+                                "offset_x": -0.1
+                            },
+                            "action":{
+                                "type":"origins:add_velocity",
+                                "x":0.3
+                            }
+                        },
+                        {
+                            "condition":{
+                                "type": "origins:block_collision",
+                                "offset_z": 0.1
+                            },
+                            "action":{
+                                "type":"origins:add_velocity",
+                                "z":-0.3
+                            }
+                        },
+                        {
+                            "condition":{
+                                "type": "origins:block_collision",
+                                "offset_z": -0.1
+                            },
+                            "action":{
+                                "type":"origins:add_velocity",
+                                "z":0.3
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "climbjumping":{
+        "type":"origins:active_self",
+        "key":{
+            "id":"key.jump"
+        },
+        "condition":{
+            "type":"origins:and",
+            "conditions":[
+                {
+                    "type":"origins:climbing"
+                },
+                {
+                    "type":"origins:or",
+                    "conditions":[
+                        {
+                            "type": "origins:block_collision",
+                            "offset_x": 0.1,
+                            "offset_z": 0.1
+                        },
+                        {
+                            "type": "origins:block_collision",
+                            "offset_x": -0.1,
+                            "offset_z": -0.1
+                        }
+                    ]
+                },
+                {
+                    "type":"origins:in_block",
+                    "block_condition":{
+                        "type": "origins:in_tag",
+                        "tag":"minecraft:climbable"
+                    },
+                    "inverted":true
+                }
+            ]
+        },
+        "entity_action":{
+            "type":"origins:and",
+            "actions":[
+                {
+                    "type":"origins:play_sound",
+                    "sound":"minecraft:celeste.jump"
+                },
+                {
+                    "type":"origins:add_velocity",
+                    "y":0.55,
+                    "set":false
+                },
+                {
+                    "type":"origins:change_resource",
+                    "resource":"madelinetheclimber:resources_staminabar",
+                    "change":-55000
+                }
+            ]
+        }
+    }
+}

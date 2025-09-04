@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "values": [
+        "regen:guard_legs",
+        "regen:guard_chest",
+        "regen:guard_helmet",
+        "regen:zinc",
+        "regen:staser",
+        "regen:rifle",
+        "regen:plasma_cartridge",
+        "regen:fobwatch",
+        "regen:f_robes_head",
+        "regen:azbantium",
+        "regen:zero_roundel_full",
+        "regen:zero_roundel_half",
+        "regen:bio_container",
+        "regen:robes_feet",
+        "regen:m_robes_legs",
+        "regen:m_robes_chest",
+        "regen:m_robes_head",
+        "regen:f_robes_legs",
+        "regen:f_robes_chest",
+        "regen:guard_feet"
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "name":"Celestial grip",
+    "description":"Your fingers cling to walls, but your stamina is limited. Don't run out mid-climb!",
+    "type":"origins:multiple",
+    "wheretooltip":{
+        "type":"origins:active_self",
+        "entity_action":{
+            "type":"origins:nothing"
+        },
+        "key":{
+            "id":"key.origins.primary_active"
+        }
+    },
+    "climbing":{
+        "type":"origins:climbing",
+        "allow_holding":true,
+        "holding_condition":{
+            "type":"origins:and",
+            "conditions":[
+                {
+                    "type":"origins:constant",
+                    "value":true
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type":"origins:resource",
+                    "resource":"madelinetheclimber:resources_climbheld",
+                    "comparison":">",
+                    "compare_to":0
+                },
+                {
+                    "type":"origins:resource",
+                    "resource":"madelinetheclimber:resources_staminabar",
+                    "comparison":">",
+                    "compare_to":0
+                },
+                {
+                    "type":"origins:or",
+                    "conditions":[
+                        {
+                            "type": "origins:block_collision",
+                            "offset_x": 0.1,
+                            "offset_z": 0.1
+                        },
+                        {
+                            "type": "origins:block_collision",
+                            "offset_x": -0.1,
+                            "offset_z": -0.1
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

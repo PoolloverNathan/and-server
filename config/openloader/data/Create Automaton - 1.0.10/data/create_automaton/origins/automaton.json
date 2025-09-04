@@ -8,6 +8,7 @@
         "create_automaton:self-repair",
         "create_automaton:machine-like",
         "create_automaton:fuel",
+		"create_automaton:astrobiotic",
         "create_automaton:extras/battery"
 	],
 	"icon": {

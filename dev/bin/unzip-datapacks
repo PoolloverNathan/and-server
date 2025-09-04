@@ -2,7 +2,7 @@ set -ex
 for z in config/openloader/data/*.zip; do
 	d="${z%%.zip}"
 	mount-zip "$z" "$d"
-	git rm "$z"
+	git rm -f "$z"
 	git add "$d"
 	umount "$d"
 	git restore --worktree "$d"

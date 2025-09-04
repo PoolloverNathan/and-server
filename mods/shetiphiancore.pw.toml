@@ -1,0 +1,13 @@
+name = "ShetiPhianCore"
+filename = "shetiphiancore-fabric-1.20.1-1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oX7uP2kS/versions/vRoHH876/shetiphiancore-fabric-1.20.1-1.4.jar"
+hash-format = "sha512"
+hash = "d41f868feb72c5f07bc04de5cba7da95204cb5e104f9f5e7ea2609ecca0adb55635a6448eefefd002a6b887a9a24806f4beb76db591ab5d65d4d829b596dbdf6"
+
+[update]
+[update.modrinth]
+mod-id = "oX7uP2kS"
+version = "vRoHH876"
