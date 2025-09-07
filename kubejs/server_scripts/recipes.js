@@ -6,6 +6,7 @@ ServerEvents.recipes(event => {
     'minecraft:crafting_table',
     '#c:workbench',
   )
+  event.recipes.create.mixing(["3x supplementaries:pancake"], ["minecraft:sugar", "minecraft:wheat", "minecraft:egg", Fluid.of("milk:still_milk", FluidAmounts.BUCKET)])
 
   function emptiesIntoXP(points, item) {
     event.recipes.create.emptying([Fluid.of("create_enchantment_industry:experience", FluidAmounts.MB * points)], item)
