@@ -24,7 +24,7 @@
             "type": "origins:resource",
             "resource": "create_automaton:stress_stress-meter",
             "comparison": "==",
-            "compare_to": 1000
+            "compare_to": 2500
         }
     },
     "toggle2": {
@@ -46,7 +46,7 @@
     "stress-meter": {
         "type": "origins:resource",
         "min": 0,
-        "max": 1000,
+        "max": 2500,
         "start_value": 0,
         "hud_render": {
             "sprite_location": "create_automaton:textures/gui/stress_bars.png",
@@ -87,7 +87,7 @@
     "warn-stress-meter": {
         "type": "origins:resource",
         "min": 0,
-        "max": 1000,
+        "max": 2500,
         "start_value": 0,
         "hud_render": {
             "sprite_location": "create_automaton:textures/gui/stress_bars.png",
@@ -134,7 +134,7 @@
     "overstress-meter": {
         "type": "origins:resource",
         "min": 0,
-        "max": 1000,
+        "max": 2500,
         "start_value": 0,
         "hud_render": {
             "sprite_location": "create_automaton:textures/gui/stress_bars.png",
