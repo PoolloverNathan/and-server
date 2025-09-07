@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"estrobnuy:effects",
+		"estrobnuy:fall_inv",
+		"estrobnuy:carrot",
+		"estrobnuy:size",
+		"estrobnuy:fire"
+	],
+	"icon": "minecraft:carrot",
+	"order": 10,
+	"impact": 2,
+	"name": "Estrogen Bunny",
+	"description": "An Anthropomorphic Bunny that is full of a probably unhealthy amount of Estrogen. §dMade §fby §cKazuno"
+}

@@ -1,0 +1,20 @@
+{
+    "name": "§aCarrot Eater",
+    "description": "Your metabolism is more used to Carrot's, and Golden Carrot's which in turn Saturate you more.",
+    "type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": [
+            {
+                "item": "minecraft:carrot"
+            },
+            {
+                "item": "minecraft:golden_carrot"
+            }
+        ]
+    },
+    "food_modifier": {
+        "operation": "multiply_total",
+        "value": 1
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "§cFlammable Fur",
+    "description": "Your fur is delicate and flammable.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:fire"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1
+    }
+}
