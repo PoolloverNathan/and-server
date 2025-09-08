@@ -1,6 +1,0 @@
-{
-    "name": "§aSoft Landing",
-    "description": "Your squishy and resistant leg's allow you to land without injury.",
-    "type": "origins:modify_falling",
-    "take_fall_damage": false
-}
