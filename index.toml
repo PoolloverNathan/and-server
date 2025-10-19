@@ -1759,6 +1759,39 @@ file = "config/openloader/data/chestling/data/pin/structures/debugblocks.nbt"
 file = "config/openloader/data/chestling/pack.mcmeta"
 
 [[files]]
+file = "config/openloader/data/estrobnuy/data/README.txt"
+
+[[files]]
+file = "config/openloader/data/estrobnuy/data/estrobnuy/functions/size.mcfunction"
+
+[[files]]
+file = "config/openloader/data/estrobnuy/data/estrobnuy/origins/README.txt"
+
+[[files]]
+file = "config/openloader/data/estrobnuy/data/estrobnuy/origins/bunny.json"
+
+[[files]]
+file = "config/openloader/data/estrobnuy/data/estrobnuy/powers/carrot.json"
+
+[[files]]
+file = "config/openloader/data/estrobnuy/data/estrobnuy/powers/effects.json"
+
+[[files]]
+file = "config/openloader/data/estrobnuy/data/estrobnuy/powers/fall_inv.json"
+
+[[files]]
+file = "config/openloader/data/estrobnuy/data/estrobnuy/powers/fire.json"
+
+[[files]]
+file = "config/openloader/data/estrobnuy/data/estrobnuy/powers/size.json"
+
+[[files]]
+file = "config/openloader/data/estrobnuy/data/origins/origin_layers/origin.json"
+
+[[files]]
+file = "config/openloader/data/estrobnuy/pack.mcmeta"
+
+[[files]]
 file = "config/openloader/data/foxplush/Catalyst SMP SEASON 5 (1).zip"
 
 [[files]]
@@ -2458,9 +2491,6 @@ file = "mods/artifacts.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/arwa-1.0.0.jar"
-
-[[files]]
 file = "mods/auth-me.pw.toml"
 metafile = true
 
@@ -2823,10 +2853,6 @@ file = "mods/hexpose.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/hexstruction.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/hextended-staves.pw.toml"
 metafile = true
 
@@ -2858,10 +2884,6 @@ metafile = true
 
 [[files]]
 file = "mods/impenduits.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/impersonate.pw.toml"
 metafile = true
 
 [[files]]
