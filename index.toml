@@ -2830,6 +2830,9 @@ file = "mods/hexdebug.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/hexic-1.4.5+4d56502.jar"
+
+[[files]]
 file = "mods/hexical-2.0.0.jar"
 
 [[files]]
