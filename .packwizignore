@@ -8,3 +8,4 @@ dev/
 docker-bake.hcl
 flake.*
 result*
+.jj/
