@@ -1,0 +1,13 @@
+name = "SpASM"
+filename = "SpASM-0.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/kVAXUykP/versions/N3ERxNsv/SpASM-0.2.2.jar"
+hash-format = "sha512"
+hash = "1379055a1484af7c2df9a6d37f1bc12820dee5b92f260d65d412b7ada79d737e59cb1c668ff3b8d6724135e28021f2aa22b429828008c0d2daf020b97064dc0e"
+
+[update]
+[update.modrinth]
+mod-id = "kVAXUykP"
+version = "N3ERxNsv"

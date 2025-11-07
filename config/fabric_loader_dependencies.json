@@ -8,7 +8,8 @@
         },
         "hexic": {
             "-depends": {
-                "hexal": "*"
+                "hexal": "*",
+                "moreiotas": "*"
             }
         },
         "minecraft": {

@@ -2929,6 +2929,10 @@ file = "mods/jline4mcdsrv.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/jsonpatcher.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/just-zoom.pw.toml"
 metafile = true
 
@@ -3246,11 +3250,15 @@ file = "mods/spark.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/spasm.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/stackdeobf.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/stars-0.1.0-pre.5.jar"
+file = "mods/stars-0.1.0-pre.5.jar.disabled"
 
 [[files]]
 file = "mods/stitch.pw.toml"
